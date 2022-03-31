@@ -70,6 +70,10 @@ namespace The_Box_v0._1
             }
             //Track Tab
             FillComboBoxesWithTracks();
+            this.reportViewer1.RefreshReport();
+            this.reportViewer2.RefreshReport();
+            this.reportViewer3.RefreshReport();
+            this.reportViewer4.RefreshReport();
         }
         #region Student
         private void ShowStudentcomboBox_SelectedIndexChanged(object sender, EventArgs e)
