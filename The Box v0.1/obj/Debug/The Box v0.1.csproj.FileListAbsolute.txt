@@ -1,0 +1,283 @@
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.exe
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\MaterialSkin.dll
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.dll
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\AltoControls.dll
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\PopupControl.dll
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\Simplify.Windows.Forms.dll
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.pdb
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.xml
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\PopupControl.pdb
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\Simplify.Windows.Forms.xml
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.SuggestedBindingRedirects.cache
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.exe
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.pdb
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.pdb
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.AssemblyReference.cache
+D:\ITI\C#\PluralSight\Abokhaled Edition\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.exe
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.pdb
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.dll
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\AltoControls.dll
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\MaterialSkin.dll
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\PopupControl.dll
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\Simplify.Windows.Forms.dll
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.pdb
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.xml
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\PopupControl.pdb
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\bin\Debug\Simplify.Windows.Forms.xml
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csprojAssemblyReference.cache
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.exe
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.pdb
+F:\ITI\PD\Visual C# .Net\Project\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.dll
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\AltoControls.dll
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\MaterialSkin.dll
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\PopupControl.dll
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\Simplify.Windows.Forms.dll
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.pdb
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.xml
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\PopupControl.pdb
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\Simplify.Windows.Forms.xml
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.AssemblyReference.cache
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\LEGION\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.pdb
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.dll
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\AltoControls.dll
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\MaterialSkin.dll
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\PopupControl.dll
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\Simplify.Windows.Forms.dll
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.pdb
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\AdamsLair.WinForms.xml
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\PopupControl.pdb
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\bin\Debug\Simplify.Windows.Forms.xml
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csprojAssemblyReference.cache
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\Mostafa M. Gad\Downloads\The Box v0.1-20220205T163531Z-001\The Box v0.1\The Box v0.1\obj\Debug\The Box v0.1.pdb
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\bin\Debug\MaterialSkin.dll
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.AssemblyReference.cache
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.SuggestedBindingRedirects.cache
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\AboKhaled\Source\Repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\bin\Debug\MaterialSkin.dll
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csprojAssemblyReference.cache
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.RoomForm.resources
+C:\Users\AboKhaled\source\repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.Board.resources
+C:\Users\AboKhaled\source\repos\ahmedsamy1234\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.RoomForm.resources
+C:\Users\Mostafa M. Gad\OneDrive\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.BoardForm.resources
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.AssemblyReference.cache
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.BoardForm.resources
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.RoomForm.resources
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\MaterialSkin.dll
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.AssemblyReference.cache
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.BoardForm.resources
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.RoomForm.resources
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+E:\projectsWorkspace\ConnectFour\TheBox-GuiLogic (1)\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csprojAssemblyReference.cache
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.BoardForm.resources
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.RoomForm.resources
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\MaterialSkin.dll
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gnrl-30\Desktop\Nesma\TheBox-GuiLogic\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\MaterialSkin.dll
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.AssemblyReference.cache
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.BoardForm.resources
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.RoomForm.resources
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\LEGION\Downloads\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\MaterialSkin.dll
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.BoardForm.resources
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.RoomForm.resources
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\LENOVO\Downloads\TheBox-GuiLogic-20220213T193638Z-001-20220214T001450Z-001\TheBox-GuiLogic-20220213T193638Z-001\TheBox-GuiLogic\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\bin\Debug\MaterialSkin.dll
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.BoardForm.resources
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.RoomForm.resources
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.WatchersForm.resources
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\LENOVO\Downloads\New folder-20220215T175029Z-001\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.WatchersForm.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csprojAssemblyReference.cache
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.BoardForm.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.RoomForm.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.PlayForm.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.WatchersForm.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Dialog.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.ImageForm.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.ColorDialog.resources
+C:\Users\Gnrl-30\Documents\GitHub\TheBox\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.ImageForm.resources
+E:\projectsWorkspace\ConnectFour\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.ColorDialog.resources
+D:\New folder\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+D:\New folder\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+D:\New folder\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+D:\New folder\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+D:\New folder\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+D:\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.AssemblyReference.cache
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.ColorDialog.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.GenerateResource.cache
+D:\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CoreCompileInputs.cache
+D:\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.csproj.CopyComplete
+D:\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+D:\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Coursescs.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.StudentDetailsInfo.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGrades.resources

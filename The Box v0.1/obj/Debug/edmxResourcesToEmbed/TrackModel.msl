@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExaminationSystemModelStoreContainer" CdmEntityContainer="ExaminationSystemEntities">
+    <FunctionImportMapping FunctionImportName="DeleteTrack" FunctionName="ExaminationSystemModel.Store.DeleteTrack" />
+    <FunctionImportMapping FunctionImportName="InsertIntoTrack" FunctionName="ExaminationSystemModel.Store.InsertIntoTrack" />
+    <FunctionImportMapping FunctionImportName="SelectFromTrack" FunctionName="ExaminationSystemModel.Store.SelectFromTrack">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ExaminationSystemModel.SelectFromTrack_Result">
+          <ScalarProperty Name="Track_Id" ColumnName="Track_Id" />
+          <ScalarProperty Name="Track_Name" ColumnName="Track_Name" />
+          <ScalarProperty Name="Super_ID" ColumnName="Super_ID" />
+          <ScalarProperty Name="Super_Name" ColumnName="Super_Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SelectTrackCourses" FunctionName="ExaminationSystemModel.Store.SelectTrackCourses" />
+    <FunctionImportMapping FunctionImportName="UpdateTrack" FunctionName="ExaminationSystemModel.Store.UpdateTrack" />
+  </EntityContainerMapping>
+</Mapping>

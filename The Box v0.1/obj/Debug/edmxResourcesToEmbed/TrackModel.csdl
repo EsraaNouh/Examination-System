@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ExaminationSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ExaminationSystemEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="DeleteTrack">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InsertIntoTrack" ReturnType="Collection(Int32)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="N" Mode="In" Type="String" />
+      <Parameter Name="SID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SelectFromTrack" ReturnType="Collection(ExaminationSystemModel.SelectFromTrack_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SelectTrackCourses" ReturnType="Collection(String)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateTrack">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="N" Mode="In" Type="String" />
+      <Parameter Name="SID" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="SelectFromTrack_Result">
+    <Property Type="Int32" Name="Track_Id" Nullable="true" />
+    <Property Type="String" Name="Track_Name" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Super_ID" Nullable="true" />
+    <Property Type="String" Name="Super_Name" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

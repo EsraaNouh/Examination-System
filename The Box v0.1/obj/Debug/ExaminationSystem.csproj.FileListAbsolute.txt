@@ -1,0 +1,133 @@
+D:\New folder\Client\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+D:\New folder\Client\The Box v0.1\bin\Debug\The Box v0.1.exe
+D:\New folder\Client\The Box v0.1\bin\Debug\The Box v0.1.pdb
+D:\New folder\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+D:\New folder\Client\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+D:\New folder\Client\The Box v0.1\obj\Debug\ExaminationSystem.csproj.AssemblyReference.cache
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Coursescs.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.ColorDialog.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.StudentDetailsInfo.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGrades.resources
+D:\New folder\Client\The Box v0.1\obj\Debug\ExaminationSystem.csproj.GenerateResource.cache
+D:\New folder\Client\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CoreCompileInputs.cache
+D:\New folder\Client\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CopyComplete
+D:\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.exe
+D:\New folder\Client\The Box v0.1\obj\Debug\The Box v0.1.pdb
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csprojAssemblyReference.cache
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Coursescs.resources
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.ColorDialog.resources
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.StudentDetailsInfo.resources
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGrades.resources
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.GenerateResource.cache
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CoreCompileInputs.cache
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CopyComplete
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\Mostafa M. Gad\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The Box v0.1.pdb
+D:\New folder\Client\The Box v0.1\obj\Debug\The_Box_v0._1.Form1.resources
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\The Box v0.1.exe
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\The Box v0.1.pdb
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.AssemblyReference.cache
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.AdminForm.resources
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Coursescs.resources
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.ColorDialog.resources
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.StudentDetailsInfo.resources
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGrades.resources
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.GenerateResource.cache
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CopyComplete
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The Box v0.1.exe
+C:\Users\LEGION\Documents\GitHub\ExaminationSystem\The Box v0.1\obj\Debug\The Box v0.1.pdb
+D:\SQL project\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+D:\SQL project\The Box v0.1\bin\Debug\The Box v0.1.exe
+D:\SQL project\The Box v0.1\bin\Debug\The Box v0.1.pdb
+D:\SQL project\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+D:\SQL project\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+D:\SQL project\The Box v0.1\obj\Debug\ExaminationSystem.csprojAssemblyReference.cache
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.AdminForm.resources
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.InstructorMainForm.resources
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.Coursescs.resources
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.ColorDialog.resources
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.Forms.StudentDetailsInfo.resources
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGrades.resources
+D:\SQL project\The Box v0.1\obj\Debug\ExaminationSystem.csproj.GenerateResource.cache
+D:\SQL project\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CoreCompileInputs.cache
+D:\SQL project\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CopyComplete
+D:\SQL project\The Box v0.1\obj\Debug\The Box v0.1.exe
+D:\SQL project\The Box v0.1\obj\Debug\The Box v0.1.pdb
+D:\SQL project\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.InsertQ.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\bin\Debug\The Box v0.1.exe
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\bin\Debug\The Box v0.1.pdb
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.AdminForm.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.GenerateResource.cache
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CoreCompileInputs.cache
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CopyComplete
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The Box v0.1.exe
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The Box v0.1.pdb
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\bin\Debug\EntityFramework.dll
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\bin\Debug\EntityFramework.SqlServer.dll
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\bin\Debug\EntityFramework.xml
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\bin\Debug\EntityFramework.SqlServer.xml
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\ExaminationSystem.csprojAssemblyReference.cache
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.insCourses.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.InstInfo.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.InstructorMainForm.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGui.StudentInfo.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.students_track.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGui.ViewCourses.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGui.ViewGrade.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGui.StudentAnswers.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.InsertQ.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\bin\Debug\The Box v0.1.exe.config
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\bin\Debug\The Box v0.1.exe
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\bin\Debug\The Box v0.1.pdb
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\bin\Debug\EntityFramework.dll
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\bin\Debug\EntityFramework.SqlServer.dll
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\bin\Debug\Newtonsoft.Json.dll
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\bin\Debug\EntityFramework.xml
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\bin\Debug\EntityFramework.SqlServer.xml
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\bin\Debug\Newtonsoft.Json.xml
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\ExaminationSystem.csproj.AssemblyReference.cache
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.AdminForm.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.insCourses.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.InsertQ.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.InstInfo.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.instructorGUI.InstructorMainForm.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.Login.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.Properties.Resources.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGui.StudentAnswers.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGui.StudentInfo.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.MainForm.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.students_track.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGui.ViewCourses.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The_Box_v0._1.StudentGui.ViewGrade.resources
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\ExaminationSystem.csproj.GenerateResource.cache
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CoreCompileInputs.cache
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\ExaminationSystem.csproj.CopyComplete
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The Box v0.1.exe
+D:\ProjectSQLFinal\examinationsystemV1-master (1)\examinationsystemV1-master\The Box v0.1\obj\Debug\The Box v0.1.pdb
