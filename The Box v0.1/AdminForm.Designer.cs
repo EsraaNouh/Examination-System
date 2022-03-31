@@ -184,10 +184,6 @@ namespace The_Box_v0._1
             this.Report5 = new System.Windows.Forms.TabPage();
             this.Report6 = new System.Windows.Forms.TabPage();
             this.Report7 = new System.Windows.Forms.TabPage();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.reportViewer2 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.reportViewer3 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.reportViewer4 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.Exams_tap.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl4.SuspendLayout();
@@ -210,10 +206,6 @@ namespace The_Box_v0._1
             this.Contaunter.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabControl3.SuspendLayout();
-            this.Report1.SuspendLayout();
-            this.Report2.SuspendLayout();
-            this.Report3.SuspendLayout();
-            this.Report4.SuspendLayout();
             this.SuspendLayout();
             // 
             // Exams_tap
@@ -283,7 +275,7 @@ namespace The_Box_v0._1
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(173, 239);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(45, 13);
+            this.label19.Size = new System.Drawing.Size(46, 13);
             this.label19.TabIndex = 13;
             this.label19.Text = "T F Spilt";
             // 
@@ -320,7 +312,7 @@ namespace The_Box_v0._1
             this.CourseIdLabel.AutoSize = true;
             this.CourseIdLabel.Location = new System.Drawing.Point(173, 89);
             this.CourseIdLabel.Name = "CourseIdLabel";
-            this.CourseIdLabel.Size = new System.Drawing.Size(57, 13);
+            this.CourseIdLabel.Size = new System.Drawing.Size(55, 13);
             this.CourseIdLabel.TabIndex = 11;
             this.CourseIdLabel.Text = "Course Id ";
             // 
@@ -329,7 +321,7 @@ namespace The_Box_v0._1
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(173, 199);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(49, 13);
+            this.label20.Size = new System.Drawing.Size(50, 13);
             this.label20.TabIndex = 10;
             this.label20.Text = "mcq Spilt";
             // 
@@ -338,7 +330,7 @@ namespace The_Box_v0._1
             this.instructor_id_label.AutoSize = true;
             this.instructor_id_label.Location = new System.Drawing.Point(173, 162);
             this.instructor_id_label.Name = "instructor_id_label";
-            this.instructor_id_label.Size = new System.Drawing.Size(66, 13);
+            this.instructor_id_label.Size = new System.Drawing.Size(62, 13);
             this.instructor_id_label.TabIndex = 9;
             this.instructor_id_label.Text = "instructor Id";
             // 
@@ -347,7 +339,7 @@ namespace The_Box_v0._1
             this.Duration_label.AutoSize = true;
             this.Duration_label.Location = new System.Drawing.Point(171, 126);
             this.Duration_label.Name = "Duration_label";
-            this.Duration_label.Size = new System.Drawing.Size(48, 13);
+            this.Duration_label.Size = new System.Drawing.Size(47, 13);
             this.Duration_label.TabIndex = 8;
             this.Duration_label.Text = "Duration";
             // 
@@ -364,7 +356,7 @@ namespace The_Box_v0._1
             this.ExamId_label.AutoSize = true;
             this.ExamId_label.Location = new System.Drawing.Point(173, 53);
             this.ExamId_label.Name = "ExamId_label";
-            this.ExamId_label.Size = new System.Drawing.Size(49, 13);
+            this.ExamId_label.Size = new System.Drawing.Size(48, 13);
             this.ExamId_label.TabIndex = 6;
             this.ExamId_label.Text = "Exam Id ";
             // 
@@ -384,7 +376,7 @@ namespace The_Box_v0._1
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1273, 765);
+            this.tabPage1.Size = new System.Drawing.Size(893, 765);
             this.tabPage1.TabIndex = 4;
             this.tabPage1.Text = "Track";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -424,7 +416,7 @@ namespace The_Box_v0._1
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(44, 153);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 13);
+            this.label5.Size = new System.Drawing.Size(45, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "Courses";
             // 
@@ -441,7 +433,7 @@ namespace The_Box_v0._1
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(278, 117);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 13);
+            this.label4.Size = new System.Drawing.Size(57, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "Supervisor";
             // 
@@ -458,7 +450,7 @@ namespace The_Box_v0._1
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(41, 113);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 13);
+            this.label3.Size = new System.Drawing.Size(71, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Supervisor ID";
             // 
@@ -467,7 +459,7 @@ namespace The_Box_v0._1
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(41, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.Size = new System.Drawing.Size(66, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Track Name";
             // 
@@ -492,7 +484,7 @@ namespace The_Box_v0._1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(41, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 13);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Track ID";
             // 
@@ -532,7 +524,7 @@ namespace The_Box_v0._1
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(33, 80);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 13);
+            this.label9.Size = new System.Drawing.Size(49, 13);
             this.label9.TabIndex = 17;
             this.label9.Text = "Track ID";
             // 
@@ -589,7 +581,7 @@ namespace The_Box_v0._1
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(33, 157);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 13);
+            this.label6.Size = new System.Drawing.Size(71, 13);
             this.label6.TabIndex = 11;
             this.label6.Text = "Supervisor ID";
             // 
@@ -598,7 +590,7 @@ namespace The_Box_v0._1
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(33, 120);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(63, 13);
+            this.label7.Size = new System.Drawing.Size(66, 13);
             this.label7.TabIndex = 10;
             this.label7.Text = "Track Name";
             // 
@@ -621,7 +613,7 @@ namespace The_Box_v0._1
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(32, 39);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(47, 13);
+            this.label8.Size = new System.Drawing.Size(49, 13);
             this.label8.TabIndex = 7;
             this.label8.Text = "Track ID";
             // 
@@ -639,7 +631,7 @@ namespace The_Box_v0._1
             this.Courses_label.Controls.Add(this.tabControl2);
             this.Courses_label.Location = new System.Drawing.Point(4, 22);
             this.Courses_label.Name = "Courses_label";
-            this.Courses_label.Size = new System.Drawing.Size(1273, 765);
+            this.Courses_label.Size = new System.Drawing.Size(893, 765);
             this.Courses_label.TabIndex = 2;
             this.Courses_label.Text = "Courses";
             this.Courses_label.UseVisualStyleBackColor = true;
@@ -915,7 +907,7 @@ namespace The_Box_v0._1
             this.Instructor_label.Location = new System.Drawing.Point(4, 22);
             this.Instructor_label.Name = "Instructor_label";
             this.Instructor_label.Padding = new System.Windows.Forms.Padding(3);
-            this.Instructor_label.Size = new System.Drawing.Size(1273, 765);
+            this.Instructor_label.Size = new System.Drawing.Size(893, 765);
             this.Instructor_label.TabIndex = 1;
             this.Instructor_label.Text = "Instructor";
             this.Instructor_label.UseVisualStyleBackColor = true;
@@ -1009,7 +1001,7 @@ namespace The_Box_v0._1
             this.V_Ins_Namelabel.Location = new System.Drawing.Point(210, 127);
             this.V_Ins_Namelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.V_Ins_Namelabel.Name = "V_Ins_Namelabel";
-            this.V_Ins_Namelabel.Size = new System.Drawing.Size(34, 13);
+            this.V_Ins_Namelabel.Size = new System.Drawing.Size(35, 13);
             this.V_Ins_Namelabel.TabIndex = 8;
             this.V_Ins_Namelabel.Text = "Name";
             // 
@@ -1019,7 +1011,7 @@ namespace The_Box_v0._1
             this.V_Ins_Emaillabel.Location = new System.Drawing.Point(210, 175);
             this.V_Ins_Emaillabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.V_Ins_Emaillabel.Name = "V_Ins_Emaillabel";
-            this.V_Ins_Emaillabel.Size = new System.Drawing.Size(31, 13);
+            this.V_Ins_Emaillabel.Size = new System.Drawing.Size(32, 13);
             this.V_Ins_Emaillabel.TabIndex = 7;
             this.V_Ins_Emaillabel.Text = "Email";
             // 
@@ -1039,7 +1031,7 @@ namespace The_Box_v0._1
             this.V_Ins_UNamelabel.Location = new System.Drawing.Point(210, 228);
             this.V_Ins_UNamelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.V_Ins_UNamelabel.Name = "V_Ins_UNamelabel";
-            this.V_Ins_UNamelabel.Size = new System.Drawing.Size(56, 13);
+            this.V_Ins_UNamelabel.Size = new System.Drawing.Size(57, 13);
             this.V_Ins_UNamelabel.TabIndex = 5;
             this.V_Ins_UNamelabel.Text = "UserName";
             // 
@@ -1199,7 +1191,7 @@ namespace The_Box_v0._1
             this.E_InsEmaillabel.Location = new System.Drawing.Point(187, 158);
             this.E_InsEmaillabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.E_InsEmaillabel.Name = "E_InsEmaillabel";
-            this.E_InsEmaillabel.Size = new System.Drawing.Size(31, 13);
+            this.E_InsEmaillabel.Size = new System.Drawing.Size(32, 13);
             this.E_InsEmaillabel.TabIndex = 2;
             this.E_InsEmaillabel.Text = "Email";
             // 
@@ -1209,7 +1201,7 @@ namespace The_Box_v0._1
             this.E_InsNamelabel.Location = new System.Drawing.Point(187, 110);
             this.E_InsNamelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.E_InsNamelabel.Name = "E_InsNamelabel";
-            this.E_InsNamelabel.Size = new System.Drawing.Size(34, 13);
+            this.E_InsNamelabel.Size = new System.Drawing.Size(35, 13);
             this.E_InsNamelabel.TabIndex = 1;
             this.E_InsNamelabel.Text = "Name";
             // 
@@ -1230,7 +1222,7 @@ namespace The_Box_v0._1
             this.StudentLabel.Location = new System.Drawing.Point(4, 22);
             this.StudentLabel.Name = "StudentLabel";
             this.StudentLabel.Padding = new System.Windows.Forms.Padding(3);
-            this.StudentLabel.Size = new System.Drawing.Size(1273, 765);
+            this.StudentLabel.Size = new System.Drawing.Size(893, 765);
             this.StudentLabel.TabIndex = 0;
             this.StudentLabel.Text = "Student";
             this.StudentLabel.Click += new System.EventHandler(this.tabPage1_Click);
@@ -1291,7 +1283,7 @@ namespace The_Box_v0._1
             this.label13.Location = new System.Drawing.Point(465, 342);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(70, 13);
+            this.label13.Size = new System.Drawing.Size(71, 13);
             this.label13.TabIndex = 19;
             this.label13.Text = "Leader Name";
             // 
@@ -1301,7 +1293,7 @@ namespace The_Box_v0._1
             this.label12.Location = new System.Drawing.Point(465, 298);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(63, 13);
+            this.label12.Size = new System.Drawing.Size(66, 13);
             this.label12.TabIndex = 18;
             this.label12.Text = "Track Name";
             // 
@@ -1339,7 +1331,7 @@ namespace The_Box_v0._1
             this.V_St_Track_label.Location = new System.Drawing.Point(194, 302);
             this.V_St_Track_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.V_St_Track_label.Name = "V_St_Track_label";
-            this.V_St_Track_label.Size = new System.Drawing.Size(47, 13);
+            this.V_St_Track_label.Size = new System.Drawing.Size(49, 13);
             this.V_St_Track_label.TabIndex = 14;
             this.V_St_Track_label.Text = "Track ID";
             // 
@@ -1359,7 +1351,7 @@ namespace The_Box_v0._1
             this.V_St_Email_label.Location = new System.Drawing.Point(194, 209);
             this.V_St_Email_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.V_St_Email_label.Name = "V_St_Email_label";
-            this.V_St_Email_label.Size = new System.Drawing.Size(31, 13);
+            this.V_St_Email_label.Size = new System.Drawing.Size(32, 13);
             this.V_St_Email_label.TabIndex = 11;
             this.V_St_Email_label.Text = "Email";
             // 
@@ -1379,7 +1371,7 @@ namespace The_Box_v0._1
             this.V_St_Name_label.Location = new System.Drawing.Point(194, 122);
             this.V_St_Name_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.V_St_Name_label.Name = "V_St_Name_label";
-            this.V_St_Name_label.Size = new System.Drawing.Size(34, 13);
+            this.V_St_Name_label.Size = new System.Drawing.Size(35, 13);
             this.V_St_Name_label.TabIndex = 9;
             this.V_St_Name_label.Text = "Name";
             // 
@@ -1497,7 +1489,7 @@ namespace The_Box_v0._1
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(456, 366);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(70, 13);
+            this.label15.Size = new System.Drawing.Size(71, 13);
             this.label15.TabIndex = 41;
             this.label15.Text = "Leader Name";
             // 
@@ -1506,7 +1498,7 @@ namespace The_Box_v0._1
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(456, 324);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(63, 13);
+            this.label14.Size = new System.Drawing.Size(66, 13);
             this.label14.TabIndex = 40;
             this.label14.Text = "Track Name";
             // 
@@ -1614,7 +1606,7 @@ namespace The_Box_v0._1
             this.E_St_Tracklabel.Location = new System.Drawing.Point(203, 327);
             this.E_St_Tracklabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.E_St_Tracklabel.Name = "E_St_Tracklabel";
-            this.E_St_Tracklabel.Size = new System.Drawing.Size(47, 13);
+            this.E_St_Tracklabel.Size = new System.Drawing.Size(49, 13);
             this.E_St_Tracklabel.TabIndex = 29;
             this.E_St_Tracklabel.Text = "Track ID";
             // 
@@ -1634,7 +1626,7 @@ namespace The_Box_v0._1
             this.E_St_Emaillabel.Location = new System.Drawing.Point(203, 201);
             this.E_St_Emaillabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.E_St_Emaillabel.Name = "E_St_Emaillabel";
-            this.E_St_Emaillabel.Size = new System.Drawing.Size(31, 13);
+            this.E_St_Emaillabel.Size = new System.Drawing.Size(32, 13);
             this.E_St_Emaillabel.TabIndex = 27;
             this.E_St_Emaillabel.Text = "Email";
             // 
@@ -1654,7 +1646,7 @@ namespace The_Box_v0._1
             this.E_St_Namelabel.Location = new System.Drawing.Point(203, 116);
             this.E_St_Namelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.E_St_Namelabel.Name = "E_St_Namelabel";
-            this.E_St_Namelabel.Size = new System.Drawing.Size(34, 13);
+            this.E_St_Namelabel.Size = new System.Drawing.Size(35, 13);
             this.E_St_Namelabel.TabIndex = 25;
             this.E_St_Namelabel.Text = "Name";
             // 
@@ -1746,7 +1738,7 @@ namespace The_Box_v0._1
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1273, 765);
+            this.tabPage4.Size = new System.Drawing.Size(893, 765);
             this.tabPage4.TabIndex = 7;
             this.tabPage4.Text = "Reports";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1769,7 +1761,6 @@ namespace The_Box_v0._1
             // 
             // Report1
             // 
-            this.Report1.Controls.Add(this.reportViewer1);
             this.Report1.Location = new System.Drawing.Point(4, 22);
             this.Report1.Margin = new System.Windows.Forms.Padding(2);
             this.Report1.Name = "Report1";
@@ -1781,7 +1772,6 @@ namespace The_Box_v0._1
             // 
             // Report2
             // 
-            this.Report2.Controls.Add(this.reportViewer2);
             this.Report2.Location = new System.Drawing.Point(4, 22);
             this.Report2.Margin = new System.Windows.Forms.Padding(2);
             this.Report2.Name = "Report2";
@@ -1793,7 +1783,6 @@ namespace The_Box_v0._1
             // 
             // Report3
             // 
-            this.Report3.Controls.Add(this.reportViewer3);
             this.Report3.Location = new System.Drawing.Point(4, 22);
             this.Report3.Margin = new System.Windows.Forms.Padding(2);
             this.Report3.Name = "Report3";
@@ -1804,7 +1793,6 @@ namespace The_Box_v0._1
             // 
             // Report4
             // 
-            this.Report4.Controls.Add(this.reportViewer4);
             this.Report4.Location = new System.Drawing.Point(4, 22);
             this.Report4.Margin = new System.Windows.Forms.Padding(2);
             this.Report4.Name = "Report4";
@@ -1842,50 +1830,6 @@ namespace The_Box_v0._1
             this.Report7.TabIndex = 6;
             this.Report7.Text = "Report7";
             this.Report7.UseVisualStyleBackColor = true;
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer1.Location = new System.Drawing.Point(2, 2);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Remote;
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.ServerReport.ReportPath = "/Reports/Student Info In Department";
-            this.reportViewer1.Size = new System.Drawing.Size(786, 507);
-            this.reportViewer1.TabIndex = 0;
-            // 
-            // reportViewer2
-            // 
-            this.reportViewer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer2.Location = new System.Drawing.Point(2, 2);
-            this.reportViewer2.Name = "reportViewer2";
-            this.reportViewer2.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Remote;
-            this.reportViewer2.ServerReport.BearerToken = null;
-            this.reportViewer2.ServerReport.ReportPath = "/Reports/Student Grades";
-            this.reportViewer2.Size = new System.Drawing.Size(786, 507);
-            this.reportViewer2.TabIndex = 0;
-            // 
-            // reportViewer3
-            // 
-            this.reportViewer3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer3.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer3.Name = "reportViewer3";
-            this.reportViewer3.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Remote;
-            this.reportViewer3.ServerReport.BearerToken = null;
-            this.reportViewer3.ServerReport.ReportPath = "/Reports/Instructor Course Info";
-            this.reportViewer3.Size = new System.Drawing.Size(790, 511);
-            this.reportViewer3.TabIndex = 0;
-            // 
-            // reportViewer4
-            // 
-            this.reportViewer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer4.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer4.Name = "reportViewer4";
-            this.reportViewer4.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Remote;
-            this.reportViewer4.ServerReport.BearerToken = null;
-            this.reportViewer4.ServerReport.ReportPath = "/Reports/Select Course Topics";
-            this.reportViewer4.Size = new System.Drawing.Size(790, 511);
-            this.reportViewer4.TabIndex = 0;
             // 
             // AdminForm
             // 
@@ -1931,10 +1875,6 @@ namespace The_Box_v0._1
             this.Contaunter.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
-            this.Report1.ResumeLayout(false);
-            this.Report2.ResumeLayout(false);
-            this.Report3.ResumeLayout(false);
-            this.Report4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2096,9 +2036,5 @@ namespace The_Box_v0._1
         private System.Windows.Forms.TabPage Report5;
         private System.Windows.Forms.TabPage Report6;
         private System.Windows.Forms.TabPage Report7;
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer2;
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer3;
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer4;
     }
 }
