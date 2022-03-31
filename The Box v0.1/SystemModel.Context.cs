@@ -425,11 +425,8 @@ namespace The_Box_v0._1
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("InsertIntoTrack", iDParameter, nParameter, sIDParameter);
         }
     
+        public virtual int InsertQuestion(string q_Ty, string q_Tx, string q_A, Nullable<int> c_Id)
         {
-            var q_IDParameter = q_ID.HasValue ?
-                new ObjectParameter("Q_ID", q_ID) :
-                new ObjectParameter("Q_ID", typeof(int));
-    
             var q_TyParameter = q_Ty != null ?
                 new ObjectParameter("Q_Ty", q_Ty) :
                 new ObjectParameter("Q_Ty", typeof(string));
@@ -446,6 +443,7 @@ namespace The_Box_v0._1
                 new ObjectParameter("C_Id", c_Id) :
                 new ObjectParameter("C_Id", typeof(int));
     
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InsertQuestion", q_TyParameter, q_TxParameter, q_AParameter, c_IdParameter);
         }
     
         public virtual int InsertStudent(Nullable<int> id, string q_Ty, string q_Tx, string q_A, Nullable<int> c_Id)
@@ -1101,33 +1099,6 @@ namespace The_Box_v0._1
                 new ObjectParameter("name", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("viewId", nameParameter);
-        }
-    
-        public virtual ObjectResult<GetStudentExams_Result> GetStudentExams(Nullable<int> stdID)
-        {
-            var stdIDParameter = stdID.HasValue ?
-                new ObjectParameter("StdID", stdID) :
-                new ObjectParameter("StdID", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetStudentExams_Result>("GetStudentExams", stdIDParameter);
-        }
-    
-        public virtual ObjectResult<ExamQuestions_Result> ExamQuestions(Nullable<int> eID, Nullable<int> stdID)
-        {
-            var eIDParameter = eID.HasValue ?
-                new ObjectParameter("EID", eID) :
-                new ObjectParameter("EID", typeof(int));
-    
-            var stdIDParameter = stdID.HasValue ?
-                new ObjectParameter("StdID", stdID) :
-                new ObjectParameter("StdID", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<ExamQuestions_Result>("ExamQuestions", eIDParameter, stdIDParameter);
-        }
-    
-        public virtual ObjectResult<Nullable<int>> Q_Last_id()
-        {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("Q_Last_id");
         }
     }
 }

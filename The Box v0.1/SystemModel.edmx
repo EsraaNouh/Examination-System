@@ -494,7 +494,6 @@
           <Parameter Name="SID" Type="int" Mode="In" />
         </Function>
         <Function Name="InsertQuestion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="Q_ID" Type="int" Mode="In" />
           <Parameter Name="Q_Ty" Type="varchar" Mode="In" />
           <Parameter Name="Q_Tx" Type="varchar" Mode="In" />
           <Parameter Name="Q_A" Type="varchar" Mode="In" />
@@ -1291,7 +1290,6 @@
             <Parameter Name="SID" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="InsertQuestion">
-            <Parameter Name="Q_ID" Mode="In" Type="Int32" />
             <Parameter Name="Q_Ty" Mode="In" Type="String" />
             <Parameter Name="Q_Tx" Mode="In" Type="String" />
             <Parameter Name="Q_A" Mode="In" Type="String" />
@@ -1491,14 +1489,6 @@
           <FunctionImport Name="viewId" ReturnType="Collection(Int32)">
           <Parameter Name="name" Mode="In" Type="String" />
           </FunctionImport>
-          <FunctionImport Name="GetStudentExams" ReturnType="Collection(ExaminationSystemModel.GetStudentExams_Result)">
-          <Parameter Name="StdID" Mode="In" Type="Int32" />
-          </FunctionImport>
-          <FunctionImport Name="ExamQuestions" ReturnType="Collection(ExaminationSystemModel.ExamQuestions_Result)">
-            <Parameter Name="EID" Mode="In" Type="Int32" />
-            <Parameter Name="StdID" Mode="In" Type="Int32" />
-          </FunctionImport>
-          <FunctionImport Name="Q_Last_id" ReturnType="Collection(Int32)" />
         </EntityContainer>
         <ComplexType Name="course_select_Result">
           <Property Type="Int32" Name="Course_Id" Nullable="false" />
@@ -1692,17 +1682,6 @@
           <Property Type="Int32" Name="Track_ID" Nullable="false" />
           <Property Type="String" Name="Track" Nullable="false" MaxLength="20" />
           <Property Type="String" Name="Supervisor" Nullable="false" MaxLength="50" />
-        </ComplexType>
-        <ComplexType Name="GetStudentExams_Result">
-          <Property Type="Int32" Name="E_ID" Nullable="false" />
-          <Property Type="Int32" Name="Course_Id" Nullable="true" />
-          <Property Type="String" Name="Course_Name" Nullable="false" MaxLength="20" />
-        </ComplexType>
-        <ComplexType Name="ExamQuestions_Result">
-          <Property Type="Int32" Name="Q_ID" Nullable="false" />
-          <Property Type="String" Name="Q_Text" Nullable="false" MaxLength="200" />
-          <Property Type="String" Name="Std_Answer" Nullable="true" MaxLength="5" />
-          <Property Type="String" Name="Q_Model_Answer" Nullable="false" MaxLength="20" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -2209,26 +2188,6 @@
           <FunctionImportMapping FunctionImportName="UpdateTopic" FunctionName="ExaminationSystemModel.Store.UpdateTopic" />
           <FunctionImportMapping FunctionImportName="UpdateTrack" FunctionName="ExaminationSystemModel.Store.UpdateTrack" />
           <FunctionImportMapping FunctionImportName="viewId" FunctionName="ExaminationSystemModel.Store.viewId" />
-          <FunctionImportMapping FunctionImportName="GetStudentExams" FunctionName="ExaminationSystemModel.Store.GetStudentExams">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="ExaminationSystemModel.GetStudentExams_Result">
-                <ScalarProperty Name="E_ID" ColumnName="E_ID" />
-                <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
-                <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="ExamQuestions" FunctionName="ExaminationSystemModel.Store.ExamQuestions">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="ExaminationSystemModel.ExamQuestions_Result">
-                <ScalarProperty Name="Q_ID" ColumnName="Q_ID" />
-                <ScalarProperty Name="Q_Text" ColumnName="Q_Text" />
-                <ScalarProperty Name="Std_Answer" ColumnName="Std_Answer" />
-                <ScalarProperty Name="Q_Model_Answer" ColumnName="Q_Model_Answer" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="Q_Last_id" FunctionName="ExaminationSystemModel.Store.Q_Last_id" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

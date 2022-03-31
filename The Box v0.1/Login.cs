@@ -31,7 +31,6 @@ namespace The_Box_v0._1
                 }
                 else
                 {
-                    //
                     MessageBox.Show("Wrong Password .... try again ! ");
                 }
             }

@@ -48,11 +48,11 @@ namespace The_Box_v0._1.instructorGUI
             else
             {
                 Q_type = "T/F";
-
             }
             Qtext = Q_text.Text;
             correctAnswer = Corr_Ans.Text;
             courseID = int.Parse(crsID.Text);
+            Ent.InsertQuestion(Q_type, Qtext, correctAnswer, courseID);
         }
     }
 }
