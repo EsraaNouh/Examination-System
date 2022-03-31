@@ -221,6 +221,19 @@ namespace The_Box_v0._1
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("ExamCorrection", examNumParameter, studIDParameter);
         }
     
+        public virtual ObjectResult<ExamQuestions_Result> ExamQuestions(Nullable<int> eID, Nullable<int> stdID)
+        {
+            var eIDParameter = eID.HasValue ?
+                new ObjectParameter("EID", eID) :
+                new ObjectParameter("EID", typeof(int));
+    
+            var stdIDParameter = stdID.HasValue ?
+                new ObjectParameter("StdID", stdID) :
+                new ObjectParameter("StdID", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<ExamQuestions_Result>("ExamQuestions", eIDParameter, stdIDParameter);
+        }
+    
         public virtual ObjectResult<ExamQuestionsChoicesReport_Result> ExamQuestionsChoicesReport(Nullable<int> exam_Id)
         {
             var exam_IdParameter = exam_Id.HasValue ?
@@ -293,6 +306,15 @@ namespace The_Box_v0._1
                 new ObjectParameter("StID", typeof(int));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("GetStudentCourses", stIDParameter);
+        }
+    
+        public virtual ObjectResult<GetStudentExams_Result> GetStudentExams(Nullable<int> stdID)
+        {
+            var stdIDParameter = stdID.HasValue ?
+                new ObjectParameter("StdID", stdID) :
+                new ObjectParameter("StdID", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetStudentExams_Result>("GetStudentExams", stdIDParameter);
         }
     
         public virtual ObjectResult<grade_Result> grade()
@@ -403,7 +425,6 @@ namespace The_Box_v0._1
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("InsertIntoTrack", iDParameter, nParameter, sIDParameter);
         }
     
-        public virtual int InsertQuestion(Nullable<int> q_ID, string q_Ty, string q_Tx, string q_A, Nullable<int> c_Id)
         {
             var q_IDParameter = q_ID.HasValue ?
                 new ObjectParameter("Q_ID", q_ID) :
@@ -425,7 +446,6 @@ namespace The_Box_v0._1
                 new ObjectParameter("C_Id", c_Id) :
                 new ObjectParameter("C_Id", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InsertQuestion", q_IDParameter, q_TyParameter, q_TxParameter, q_AParameter, c_IdParameter);
         }
     
         public virtual int InsertStudent(Nullable<int> id, string q_Ty, string q_Tx, string q_A, Nullable<int> c_Id)
@@ -532,6 +552,11 @@ namespace The_Box_v0._1
                 new ObjectParameter("StudAnswer", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<ModelAnswer_Result>("ModelAnswer", studIDParameter, examIDParameter, quesIDParameter, studAnswerParameter);
+        }
+    
+        public virtual ObjectResult<Nullable<int>> Q_Last_id()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("Q_Last_id");
         }
     
         public virtual ObjectResult<Select_Ins_Crs_Result> Select_Ins_Crs()

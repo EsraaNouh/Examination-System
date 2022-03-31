@@ -1228,6 +1228,10 @@
             <Parameter Name="ExamNum" Mode="In" Type="Int32" />
             <Parameter Name="StudID" Mode="In" Type="Int32" />
           </FunctionImport>
+          <FunctionImport Name="ExamQuestions" ReturnType="Collection(ExaminationSystemModel.ExamQuestions_Result)">
+            <Parameter Name="EID" Mode="In" Type="Int32" />
+            <Parameter Name="StdID" Mode="In" Type="Int32" />
+          </FunctionImport>
           <FunctionImport Name="ExamQuestionsChoicesReport" ReturnType="Collection(ExaminationSystemModel.ExamQuestionsChoicesReport_Result)">
           <Parameter Name="Exam_Id" Mode="In" Type="Int32" />
           </FunctionImport>
@@ -1250,6 +1254,9 @@
           </FunctionImport>
           <FunctionImport Name="GetStudentCourses" ReturnType="Collection(String)">
           <Parameter Name="StID" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="GetStudentExams" ReturnType="Collection(ExaminationSystemModel.GetStudentExams_Result)">
+          <Parameter Name="StdID" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="grade" ReturnType="Collection(ExaminationSystemModel.grade_Result)" />
           <FunctionImport Name="Ins_Teach_Courses" ReturnType="Collection(ExaminationSystemModel.Ins_Teach_Courses_Result)">
@@ -1320,6 +1327,7 @@
             <Parameter Name="QuesID" Mode="In" Type="Int32" />
             <Parameter Name="StudAnswer" Mode="In" Type="String" />
           </FunctionImport>
+          <FunctionImport Name="Q_Last_id" ReturnType="Collection(Int32)" />
           <FunctionImport Name="Select_Ins_Crs" ReturnType="Collection(ExaminationSystemModel.Select_Ins_Crs_Result)" />
           <FunctionImport Name="SelectAllInstructorsIDs" ReturnType="Collection(Int32)" />
           <FunctionImport Name="SelectAllStudentsIDs" ReturnType="Collection(Int32)" />
@@ -1496,6 +1504,12 @@
           <Property Type="Int32" Name="Course_Id" Nullable="false" />
           <Property Type="String" Name="Course_Name" Nullable="false" MaxLength="20" />
         </ComplexType>
+        <ComplexType Name="ExamQuestions_Result">
+          <Property Type="Int32" Name="Q_ID" Nullable="false" />
+          <Property Type="String" Name="Q_Text" Nullable="false" MaxLength="200" />
+          <Property Type="String" Name="Std_Answer" Nullable="true" MaxLength="5" />
+          <Property Type="String" Name="Q_Model_Answer" Nullable="false" MaxLength="20" />
+        </ComplexType>
         <ComplexType Name="ExamQuestionsChoicesReport_Result">
           <Property Type="String" Name="Course_Name" Nullable="false" MaxLength="20" />
           <Property Type="String" Name="Ins_Name" Nullable="false" MaxLength="50" />
@@ -1516,6 +1530,11 @@
           <Property Type="String" Name="Exam_id" Nullable="true" MaxLength="20" />
           <Property Type="String" Name="Q_Text" Nullable="true" MaxLength="250" />
           <Property Type="String" Name="typeOfQ" Nullable="true" MaxLength="5" />
+        </ComplexType>
+        <ComplexType Name="GetStudentExams_Result">
+          <Property Type="Int32" Name="E_ID" Nullable="false" />
+          <Property Type="Int32" Name="Course_Id" Nullable="true" />
+          <Property Type="String" Name="Course_Name" Nullable="false" MaxLength="20" />
         </ComplexType>
         <ComplexType Name="grade_Result">
           <Property Type="String" Name="Topic_Name" Nullable="false" MaxLength="50" />
@@ -1837,6 +1856,16 @@
           <FunctionImportMapping FunctionImportName="DelteInsCrs" FunctionName="ExaminationSystemModel.Store.DelteInsCrs" />
           <FunctionImportMapping FunctionImportName="ExamAnswer" FunctionName="ExaminationSystemModel.Store.ExamAnswer" />
           <FunctionImportMapping FunctionImportName="ExamCorrection" FunctionName="ExaminationSystemModel.Store.ExamCorrection" />
+          <FunctionImportMapping FunctionImportName="ExamQuestions" FunctionName="ExaminationSystemModel.Store.ExamQuestions">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ExaminationSystemModel.ExamQuestions_Result">
+                <ScalarProperty Name="Q_ID" ColumnName="Q_ID" />
+                <ScalarProperty Name="Q_Text" ColumnName="Q_Text" />
+                <ScalarProperty Name="Std_Answer" ColumnName="Std_Answer" />
+                <ScalarProperty Name="Q_Model_Answer" ColumnName="Q_Model_Answer" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="ExamQuestionsChoicesReport" FunctionName="ExaminationSystemModel.Store.ExamQuestionsChoicesReport">
             <ResultMapping>
               <ComplexTypeMapping TypeName="ExaminationSystemModel.ExamQuestionsChoicesReport_Result">
@@ -1876,6 +1905,15 @@
             </ResultMapping>
           </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="GetStudentCourses" FunctionName="ExaminationSystemModel.Store.GetStudentCourses" />
+          <FunctionImportMapping FunctionImportName="GetStudentExams" FunctionName="ExaminationSystemModel.Store.GetStudentExams">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="ExaminationSystemModel.GetStudentExams_Result">
+                <ScalarProperty Name="E_ID" ColumnName="E_ID" />
+                <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+                <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="grade" FunctionName="ExaminationSystemModel.Store.grade">
             <ResultMapping>
               <ComplexTypeMapping TypeName="ExaminationSystemModel.grade_Result">
@@ -1949,6 +1987,7 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Q_Last_id" FunctionName="ExaminationSystemModel.Store.Q_Last_id" />
           <FunctionImportMapping FunctionImportName="Select_Ins_Crs" FunctionName="ExaminationSystemModel.Store.Select_Ins_Crs">
             <ResultMapping>
               <ComplexTypeMapping TypeName="ExaminationSystemModel.Select_Ins_Crs_Result">
