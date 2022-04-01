@@ -184,8 +184,6 @@ namespace The_Box_v0._1
             this.Report5 = new System.Windows.Forms.TabPage();
             this.Report6 = new System.Windows.Forms.TabPage();
             this.Report7 = new System.Windows.Forms.TabPage();
-            this.TimePicker = new System.Windows.Forms.DateTimePicker();
-            this.label22 = new System.Windows.Forms.Label();
             this.Exams_tap.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl4.SuspendLayout();
@@ -212,8 +210,6 @@ namespace The_Box_v0._1
             // 
             // Exams_tap
             // 
-            this.Exams_tap.Controls.Add(this.label22);
-            this.Exams_tap.Controls.Add(this.TimePicker);
             this.Exams_tap.Controls.Add(this.prevQ);
             this.Exams_tap.Controls.Add(this.instructorIDofExam);
             this.Exams_tap.Controls.Add(this.CourseIdOfExam);
@@ -251,22 +247,22 @@ namespace The_Box_v0._1
             // instructorIDofExam
             // 
             this.instructorIDofExam.FormattingEnabled = true;
-            this.instructorIDofExam.Location = new System.Drawing.Point(246, 206);
+            this.instructorIDofExam.Location = new System.Drawing.Point(237, 159);
             this.instructorIDofExam.Name = "instructorIDofExam";
-            this.instructorIDofExam.Size = new System.Drawing.Size(200, 21);
+            this.instructorIDofExam.Size = new System.Drawing.Size(155, 21);
             this.instructorIDofExam.TabIndex = 16;
             // 
             // CourseIdOfExam
             // 
             this.CourseIdOfExam.FormattingEnabled = true;
-            this.CourseIdOfExam.Location = new System.Drawing.Point(246, 91);
+            this.CourseIdOfExam.Location = new System.Drawing.Point(237, 86);
             this.CourseIdOfExam.Name = "CourseIdOfExam";
-            this.CourseIdOfExam.Size = new System.Drawing.Size(200, 21);
+            this.CourseIdOfExam.Size = new System.Drawing.Size(155, 21);
             this.CourseIdOfExam.TabIndex = 15;
             // 
             // GenerateExam
             // 
-            this.GenerateExam.Location = new System.Drawing.Point(264, 353);
+            this.GenerateExam.Location = new System.Drawing.Point(237, 304);
             this.GenerateExam.Name = "GenerateExam";
             this.GenerateExam.Size = new System.Drawing.Size(128, 23);
             this.GenerateExam.TabIndex = 14;
@@ -277,7 +273,7 @@ namespace The_Box_v0._1
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(173, 290);
+            this.label19.Location = new System.Drawing.Point(173, 239);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(46, 13);
             this.label19.TabIndex = 13;
@@ -285,30 +281,30 @@ namespace The_Box_v0._1
             // 
             // T_f_spilt
             // 
-            this.T_f_spilt.Location = new System.Drawing.Point(246, 283);
+            this.T_f_spilt.Location = new System.Drawing.Point(237, 232);
             this.T_f_spilt.Name = "T_f_spilt";
-            this.T_f_spilt.Size = new System.Drawing.Size(200, 20);
+            this.T_f_spilt.Size = new System.Drawing.Size(155, 20);
             this.T_f_spilt.TabIndex = 12;
             // 
             // mcqSpilt
             // 
-            this.mcqSpilt.Location = new System.Drawing.Point(246, 245);
+            this.mcqSpilt.Location = new System.Drawing.Point(237, 196);
             this.mcqSpilt.Name = "mcqSpilt";
-            this.mcqSpilt.Size = new System.Drawing.Size(200, 20);
+            this.mcqSpilt.Size = new System.Drawing.Size(155, 20);
             this.mcqSpilt.TabIndex = 5;
             // 
             // DurationText
             // 
-            this.DurationText.Location = new System.Drawing.Point(246, 130);
+            this.DurationText.Location = new System.Drawing.Point(237, 123);
             this.DurationText.Name = "DurationText";
-            this.DurationText.Size = new System.Drawing.Size(200, 20);
+            this.DurationText.Size = new System.Drawing.Size(155, 20);
             this.DurationText.TabIndex = 3;
             // 
             // IdOfExam
             // 
-            this.IdOfExam.Location = new System.Drawing.Point(246, 53);
+            this.IdOfExam.Location = new System.Drawing.Point(237, 50);
             this.IdOfExam.Name = "IdOfExam";
-            this.IdOfExam.Size = new System.Drawing.Size(200, 20);
+            this.IdOfExam.Size = new System.Drawing.Size(155, 20);
             this.IdOfExam.TabIndex = 1;
             // 
             // CourseIdLabel
@@ -323,7 +319,7 @@ namespace The_Box_v0._1
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(173, 250);
+            this.label20.Location = new System.Drawing.Point(173, 199);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(50, 13);
             this.label20.TabIndex = 10;
@@ -332,7 +328,7 @@ namespace The_Box_v0._1
             // instructor_id_label
             // 
             this.instructor_id_label.AutoSize = true;
-            this.instructor_id_label.Location = new System.Drawing.Point(173, 213);
+            this.instructor_id_label.Location = new System.Drawing.Point(173, 162);
             this.instructor_id_label.Name = "instructor_id_label";
             this.instructor_id_label.Size = new System.Drawing.Size(62, 13);
             this.instructor_id_label.TabIndex = 9;
@@ -380,7 +376,7 @@ namespace The_Box_v0._1
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1273, 765);
+            this.tabPage1.Size = new System.Drawing.Size(893, 765);
             this.tabPage1.TabIndex = 4;
             this.tabPage1.Text = "Track";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -635,7 +631,7 @@ namespace The_Box_v0._1
             this.Courses_label.Controls.Add(this.tabControl2);
             this.Courses_label.Location = new System.Drawing.Point(4, 22);
             this.Courses_label.Name = "Courses_label";
-            this.Courses_label.Size = new System.Drawing.Size(1273, 765);
+            this.Courses_label.Size = new System.Drawing.Size(893, 765);
             this.Courses_label.TabIndex = 2;
             this.Courses_label.Text = "Courses";
             this.Courses_label.UseVisualStyleBackColor = true;
@@ -911,7 +907,7 @@ namespace The_Box_v0._1
             this.Instructor_label.Location = new System.Drawing.Point(4, 22);
             this.Instructor_label.Name = "Instructor_label";
             this.Instructor_label.Padding = new System.Windows.Forms.Padding(3);
-            this.Instructor_label.Size = new System.Drawing.Size(1273, 765);
+            this.Instructor_label.Size = new System.Drawing.Size(893, 765);
             this.Instructor_label.TabIndex = 1;
             this.Instructor_label.Text = "Instructor";
             this.Instructor_label.UseVisualStyleBackColor = true;
@@ -1226,7 +1222,7 @@ namespace The_Box_v0._1
             this.StudentLabel.Location = new System.Drawing.Point(4, 22);
             this.StudentLabel.Name = "StudentLabel";
             this.StudentLabel.Padding = new System.Windows.Forms.Padding(3);
-            this.StudentLabel.Size = new System.Drawing.Size(1273, 765);
+            this.StudentLabel.Size = new System.Drawing.Size(893, 765);
             this.StudentLabel.TabIndex = 0;
             this.StudentLabel.Text = "Student";
             this.StudentLabel.Click += new System.EventHandler(this.tabPage1_Click);
@@ -1742,7 +1738,7 @@ namespace The_Box_v0._1
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1273, 765);
+            this.tabPage4.Size = new System.Drawing.Size(893, 765);
             this.tabPage4.TabIndex = 7;
             this.tabPage4.Text = "Reports";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1834,22 +1830,6 @@ namespace The_Box_v0._1
             this.Report7.TabIndex = 6;
             this.Report7.Text = "Report7";
             this.Report7.UseVisualStyleBackColor = true;
-            // 
-            // TimePicker
-            // 
-            this.TimePicker.Location = new System.Drawing.Point(246, 168);
-            this.TimePicker.Name = "TimePicker";
-            this.TimePicker.Size = new System.Drawing.Size(200, 20);
-            this.TimePicker.TabIndex = 18;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(173, 175);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(69, 13);
-            this.label22.TabIndex = 19;
-            this.label22.Text = "Starting Time";
             // 
             // AdminForm
             // 
@@ -2056,7 +2036,5 @@ namespace The_Box_v0._1
         private System.Windows.Forms.TabPage Report5;
         private System.Windows.Forms.TabPage Report6;
         private System.Windows.Forms.TabPage Report7;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.DateTimePicker TimePicker;
     }
 }
