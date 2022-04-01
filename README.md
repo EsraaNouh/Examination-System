@@ -33,7 +33,7 @@
 
 --------------------
 ## Referential integrity constraints of System 
-
+```
 * course
 ├── course id 
 │   └── course -- coiches
@@ -112,3 +112,4 @@
 
 
 
+```
