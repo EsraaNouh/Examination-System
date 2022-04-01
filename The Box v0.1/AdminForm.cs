@@ -503,7 +503,16 @@ namespace The_Box_v0._1
         }
         private void GenerateExam_Click_1(object sender, EventArgs e)
         {
-            Ent.GenerateExam(int.Parse(IdOfExam.Text), (instructorIDofExam.Text), int.Parse(DurationText.Text), (CourseIdOfExam.Text), int.Parse(mcqSpilt.Text), int.Parse(T_f_spilt.Text), Groupsbox, this);
+            if (int.Parse(mcqSpilt.Text) + int.Parse(T_f_spilt.Text) == 10)
+            {
+                Ent.GenerateExam(int.Parse(IdOfExam.Text), (instructorIDofExam.Text), int.Parse(DurationText.Text), (CourseIdOfExam.Text), int.Parse(mcqSpilt.Text), int.Parse(T_f_spilt.Text), Groupsbox, this);
+                MessageBox.Show("you add the Exam Succ");
+            }
+            else
+            {
+
+                MessageBox.Show(" number of Q's must be 10");
+            }
         }
         private void PrevQ_Click_1(object sender, EventArgs e)
         {

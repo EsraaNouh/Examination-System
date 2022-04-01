@@ -80,10 +80,7 @@ namespace The_Box_v0._1
             {
                 MessageBox.Show("'{0}' is out of range of the Int32 type.");
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Try Again ");
-            }
+   
         }
         public static string ComputeSha256Hash(this ExaminationSysEntities Database, string rawData)
         {

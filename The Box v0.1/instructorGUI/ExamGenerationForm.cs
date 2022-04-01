@@ -36,9 +36,17 @@ namespace The_Box_v0._1.instructorGUI
         }
 
         private void GenerateExam_Click(object sender, EventArgs e)
-        {
-            Ent.GetRandomQuestions(CourseID, int.Parse(ExamID.Text), int.Parse(ExamDuration.Text), InstructorID, int.Parse(mcqSpilt.Text), int.Parse(T_f_spilt.Text));
-            MessageBox.Show("Exam generated successfully");
+        { if (int.Parse(mcqSpilt.Text) + int.Parse(T_f_spilt.Text) == 10)
+            {
+                Ent.GetRandomQuestions(CourseID, int.Parse(ExamID.Text), int.Parse(ExamDuration.Text), InstructorID, int.Parse(mcqSpilt.Text), int.Parse(T_f_spilt.Text));
+                MessageBox.Show("Exam generated successfully");
+            }
+        else
+
+            {
+
+                MessageBox.Show("Num of Q's must be 10");
+            }
 
         }
 
