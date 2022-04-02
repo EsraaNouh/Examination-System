@@ -12,20 +12,17 @@ namespace The_Box_v0._1
 {
     public static class HelperFunc
     {
-        public static void GenerateExam(this ExaminationSysEntities Database, int ExamId, string insName, int Duration, String courseName, int spiltMCQ, int spiltT_f, List<GroupBox> Groupsbox, AdminForm form)
+        public static void GenerateExam(this ExaminationSysEntities Database, int ExamId, string insName,DateTime EDate, string ETime, int Duration, String courseName, int spiltMCQ, int spiltT_f, List<GroupBox> Groupsbox, AdminForm form)
         {
             try
             {
-                int insId =
-                    (from Instructor in Database.Instructors
-                     where Instructor.Ins_Name == insName
-                     select Instructor.Ins_ID).First();
-                int courseId =
-                    (from courses in Database.Courses
-                     where courses.Course_Name == courseName
-                     select courses.Course_Id).First();
+                char[] whitespace = new char[] { ':' };
+                string[] SpiltedStringForINSname = insName.Split(whitespace);
+                int insId = int.Parse(SpiltedStringForINSname[0]);
+                string[] SpiltedStringForcourseName = courseName.Split(whitespace);
+                int courseId = int.Parse(SpiltedStringForcourseName[0]);
                 List<GetRandomQuestions_Result> Exam =
-                Database.GetRandomQuestions(courseId, ExamId, Duration, insId, spiltMCQ, spiltT_f).ToList();
+                Database.GetRandomQuestions(courseId, ExamId, EDate, ETime, Duration, insId, spiltMCQ, spiltT_f).ToList();
                 RadioButton radio;
                 for (int i = 0; i < Exam.Count; i++)
                 {
@@ -80,7 +77,10 @@ namespace The_Box_v0._1
             {
                 MessageBox.Show("'{0}' is out of range of the Int32 type.");
             }
-   
+            catch (Exception ex)
+            {
+                MessageBox.Show("Try Again ");
+            }
         }
         public static string ComputeSha256Hash(this ExaminationSysEntities Database, string rawData)
         {
@@ -141,51 +141,60 @@ namespace The_Box_v0._1
         //Student Exam
         public static List<GetRandomExam_Result> ShowExam(this ExaminationSysEntities Database, string CourseName, List<GroupBox> Groupsbox, StudentExamForm  form)
         {
-            List<GetRandomExam_Result> Exam = Database.GetRandomExam(CourseName).ToList();
-            RadioButton radio;
-            for (int i = 0; i < Exam.Count; i++)
+            string time = DateTime.Now.ToString("h:mm:ss tt");
+            List<GetRandomExam_Result> Exam = Database.GetRandomExam(CourseName, DateTime.Today, time).ToList();
+            if (Exam.Count < 1)
             {
-                GroupBox box = GroupItemConfigure(Exam[i], i);
-                var choicesofQ = Database.GetChoiceOfQ(Exam[i].Q_ID).ToList();
-                int lengthofChoice = choicesofQ.Count;
-                int positionOfradiobutton = 100;
-                for (int j = 0; j < lengthofChoice; j++)
+                MessageBox.Show("Exam is not available now");
+            }
+            else
+            {
+                RadioButton radio;
+                for (int i = 0; i < Exam.Count; i++)
                 {
-                    radio = new RadioButton();
-                    radio.AutoSize = true;
-                    radio.Location = new System.Drawing.Point(box.Location.X - 50, positionOfradiobutton);
-                    radio.TabIndex = 0;
-                    radio.TabStop = true;
-                    if (lengthofChoice == 2)
+                    GroupBox box = GroupItemConfigure(Exam[i], i);
+                    var choicesofQ = Database.GetChoiceOfQ(Exam[i].Q_ID).ToList();
+                    int lengthofChoice = choicesofQ.Count;
+                    int positionOfradiobutton = 100;
+
+                    for (int j = 0; j < lengthofChoice; j++)
                     {
-                        if (j == 0)
+                        radio = new RadioButton();
+                        radio.AutoSize = true;
+                        radio.Location = new System.Drawing.Point(box.Location.X - 50, positionOfradiobutton);
+                        radio.TabIndex = 0;
+                        radio.TabStop = true;
+                        if (lengthofChoice == 2)
                         {
-                            radio.Name = "t";
-                            radio.Text = "True";
+                            if (j == 0)
+                            {
+                                radio.Name = "t";
+                                radio.Text = "True";
+                            }
+                            else
+                            {
+                                radio.Name = "f";
+                                radio.Text = "False";
+                            }
                         }
                         else
                         {
-                            radio.Name = "f";
-                            radio.Text = "False";
+                            radio.Name = choicesofQ[j].ChoiceId.ToString();
+                            radio.Text = choicesofQ[j].Choice_text;
                         }
+                        radio.UseVisualStyleBackColor = true;
+                        radio.Visible = true;
+                        positionOfradiobutton = positionOfradiobutton + 60;
+                        box.Controls.Add(radio);
                     }
-                    else
+                    Groupsbox.Add(box);
+                    form.Controls.Add(box);
+                    foreach (GroupBox boxIterator in Groupsbox)
                     {
-                        radio.Name = choicesofQ[j].ChoiceId.ToString();
-                        radio.Text = choicesofQ[j].Choice_text;
+                        boxIterator.Visible = false;
                     }
-                    radio.UseVisualStyleBackColor = true;
-                    radio.Visible = true;
-                    positionOfradiobutton = positionOfradiobutton + 60;
-                    box.Controls.Add(radio);
+                    Groupsbox[0].Visible = true;
                 }
-                Groupsbox.Add(box);
-                form.Controls.Add(box);
-                foreach (GroupBox boxIterator in Groupsbox)
-                {
-                    boxIterator.Visible = false;
-                }
-                Groupsbox[0].Visible = true;
             }
             return Exam;
         }

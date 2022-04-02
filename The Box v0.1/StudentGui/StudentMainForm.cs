@@ -28,6 +28,7 @@ namespace The_Box_v0._1
             CloseFormbtn.Visible = false;
             student = std;
             User = std.Std_UserName;
+            label2.Text = student.Std_Name;
         }
         // To Make Form Movable
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -121,10 +122,6 @@ namespace The_Box_v0._1
             currentButton = null;
             CloseFormbtn.Visible = false;
         }
-        private void CloseAppbtn_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
         private void MaximizeAppbtn_Click(object sender, EventArgs e)
         {
             if (this.WindowState == FormWindowState.Normal)
@@ -140,19 +137,12 @@ namespace The_Box_v0._1
         {
             WindowState = FormWindowState.Minimized;
         }
-        private void InfoStudent_label_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new students_track(User), sender);
-        }
+
         private void SignoutBtn_Click_1(object sender, EventArgs e)
         {
             ActivateButton(sender);
             Close();
             loginPage.Show();
-        }
-        private void Minimize_Click_1(object sender, EventArgs e)
-        {
-            WindowState = FormWindowState.Minimized;
         }
         private void MaximizeAppbtn_Click_1(object sender, EventArgs e)
         {
@@ -165,7 +155,7 @@ namespace The_Box_v0._1
                 this.WindowState = FormWindowState.Normal;
             }
         }
-        private void CloseAppbtn_Click_1(object sender, EventArgs e)
+        private void CloseAppbtn_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

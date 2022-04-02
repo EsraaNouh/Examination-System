@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'E:\Drive\ITI\9.Advanced SQL\Project\final\ExaminationSystem\The Box v0.1\SystemModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\LENOVO\Downloads\pro\pro\The Box v0.1\SystemModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

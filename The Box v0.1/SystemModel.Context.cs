@@ -27,6 +27,7 @@ namespace The_Box_v0._1
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Admin_Info> Admin_Info { get; set; }
         public virtual DbSet<Choice> Choices { get; set; }
         public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<Exam> Exams { get; set; }
@@ -35,8 +36,22 @@ namespace The_Box_v0._1
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Student_Courses> Student_Courses { get; set; }
         public virtual DbSet<Student_Exam> Student_Exam { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<Topic> Topics { get; set; }
         public virtual DbSet<Track> Tracks { get; set; }
+    
+        public virtual ObjectResult<Nullable<int>> CheckAdmin(string userName, string pass)
+        {
+            var userNameParameter = userName != null ?
+                new ObjectParameter("UserName", userName) :
+                new ObjectParameter("UserName", typeof(string));
+    
+            var passParameter = pass != null ?
+                new ObjectParameter("Pass", pass) :
+                new ObjectParameter("Pass", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("CheckAdmin", userNameParameter, passParameter);
+        }
     
         public virtual int course_delete(Nullable<int> crsid, string crsname)
         {
@@ -49,6 +64,15 @@ namespace The_Box_v0._1
                 new ObjectParameter("crsname", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("course_delete", crsidParameter, crsnameParameter);
+        }
+    
+        public virtual ObjectResult<Nullable<int>> Course_Exams(Nullable<int> cID)
+        {
+            var cIDParameter = cID.HasValue ?
+                new ObjectParameter("CID", cID) :
+                new ObjectParameter("CID", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("Course_Exams", cIDParameter);
         }
     
         public virtual int course_insert(Nullable<int> crsid, string crsname)
@@ -261,16 +285,24 @@ namespace The_Box_v0._1
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("GetCourseID", courseNameParameter);
         }
     
-        public virtual ObjectResult<GetRandomExam_Result> GetRandomExam(string courseName)
+        public virtual ObjectResult<GetRandomExam_Result> GetRandomExam(string courseName, Nullable<System.DateTime> date, string time)
         {
             var courseNameParameter = courseName != null ?
                 new ObjectParameter("CourseName", courseName) :
                 new ObjectParameter("CourseName", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetRandomExam_Result>("GetRandomExam", courseNameParameter);
+            var dateParameter = date.HasValue ?
+                new ObjectParameter("Date", date) :
+                new ObjectParameter("Date", typeof(System.DateTime));
+    
+            var timeParameter = time != null ?
+                new ObjectParameter("Time", time) :
+                new ObjectParameter("Time", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetRandomExam_Result>("GetRandomExam", courseNameParameter, dateParameter, timeParameter);
         }
     
-        public virtual ObjectResult<GetRandomQuestions_Result> GetRandomQuestions(Nullable<int> courseId, Nullable<int> exam_id, Nullable<int> e_Duration, Nullable<int> instructorId, Nullable<int> mCQSpilt, Nullable<int> tFSpilt)
+        public virtual ObjectResult<GetRandomQuestions_Result> GetRandomQuestions(Nullable<int> courseId, Nullable<int> exam_id, Nullable<System.DateTime> edate, string startTime, Nullable<int> e_Duration, Nullable<int> instructorId, Nullable<int> mCQSpilt, Nullable<int> tFSpilt)
         {
             var courseIdParameter = courseId.HasValue ?
                 new ObjectParameter("CourseId", courseId) :
@@ -279,6 +311,14 @@ namespace The_Box_v0._1
             var exam_idParameter = exam_id.HasValue ?
                 new ObjectParameter("exam_id", exam_id) :
                 new ObjectParameter("exam_id", typeof(int));
+    
+            var edateParameter = edate.HasValue ?
+                new ObjectParameter("Edate", edate) :
+                new ObjectParameter("Edate", typeof(System.DateTime));
+    
+            var startTimeParameter = startTime != null ?
+                new ObjectParameter("StartTime", startTime) :
+                new ObjectParameter("StartTime", typeof(string));
     
             var e_DurationParameter = e_Duration.HasValue ?
                 new ObjectParameter("E_Duration", e_Duration) :
@@ -296,7 +336,7 @@ namespace The_Box_v0._1
                 new ObjectParameter("TFSpilt", tFSpilt) :
                 new ObjectParameter("TFSpilt", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetRandomQuestions_Result>("GetRandomQuestions", courseIdParameter, exam_idParameter, e_DurationParameter, instructorIdParameter, mCQSpiltParameter, tFSpiltParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetRandomQuestions_Result>("GetRandomQuestions", courseIdParameter, exam_idParameter, edateParameter, startTimeParameter, e_DurationParameter, instructorIdParameter, mCQSpiltParameter, tFSpiltParameter);
         }
     
         public virtual ObjectResult<string> GetStudentCourses(Nullable<int> stID)
@@ -340,7 +380,7 @@ namespace The_Box_v0._1
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<InsCourseReport_Result>("InsCourseReport", insIDParameter);
         }
     
-        public virtual ObjectResult<string> Insert_Topic(string t_Name, Nullable<int> c_ID)
+        public virtual int Insert_Topic(string t_Name, Nullable<int> c_ID)
         {
             var t_NameParameter = t_Name != null ?
                 new ObjectParameter("T_Name", t_Name) :
@@ -350,7 +390,7 @@ namespace The_Box_v0._1
                 new ObjectParameter("c_ID", c_ID) :
                 new ObjectParameter("c_ID", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("Insert_Topic", t_NameParameter, c_IDParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("Insert_Topic", t_NameParameter, c_IDParameter);
         }
     
         public virtual int InsertChoice(string c_Id, string c_T, Nullable<int> q_Id)
@@ -728,6 +768,109 @@ namespace The_Box_v0._1
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("ShowRandomQuestionInCourse", crs_IdParameter);
         }
     
+        public virtual int sp_alterdiagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var versionParameter = version.HasValue ?
+                new ObjectParameter("version", version) :
+                new ObjectParameter("version", typeof(int));
+    
+            var definitionParameter = definition != null ?
+                new ObjectParameter("definition", definition) :
+                new ObjectParameter("definition", typeof(byte[]));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_alterdiagram", diagramnameParameter, owner_idParameter, versionParameter, definitionParameter);
+        }
+    
+        public virtual int sp_creatediagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var versionParameter = version.HasValue ?
+                new ObjectParameter("version", version) :
+                new ObjectParameter("version", typeof(int));
+    
+            var definitionParameter = definition != null ?
+                new ObjectParameter("definition", definition) :
+                new ObjectParameter("definition", typeof(byte[]));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_creatediagram", diagramnameParameter, owner_idParameter, versionParameter, definitionParameter);
+        }
+    
+        public virtual int sp_dropdiagram(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_dropdiagram", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual int sp_helpdiagramdefinition(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_helpdiagramdefinition", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual int sp_helpdiagrams(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_helpdiagrams", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual int sp_renamediagram(string diagramname, Nullable<int> owner_id, string new_diagramname)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var new_diagramnameParameter = new_diagramname != null ?
+                new ObjectParameter("new_diagramname", new_diagramname) :
+                new ObjectParameter("new_diagramname", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_renamediagram", diagramnameParameter, owner_idParameter, new_diagramnameParameter);
+        }
+    
+        public virtual int sp_upgraddiagrams()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_upgraddiagrams");
+        }
+    
         public virtual ObjectResult<string> std_courses(Nullable<int> stdid)
         {
             var stdidParameter = stdid.HasValue ?
@@ -845,6 +988,15 @@ namespace The_Box_v0._1
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<StudentGradesReport_Result>("StudentGradesReport", std_IdParameter);
         }
     
+        public virtual ObjectResult<StudentHasNotExam_Result> StudentHasNotExam(Nullable<int> stdID)
+        {
+            var stdIDParameter = stdID.HasValue ?
+                new ObjectParameter("StdID", stdID) :
+                new ObjectParameter("StdID", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<StudentHasNotExam_Result>("StudentHasNotExam", stdIDParameter);
+        }
+    
         public virtual ObjectResult<StudentInfoInDepartmentReport_Result> StudentInfoInDepartmentReport()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<StudentInfoInDepartmentReport_Result>("StudentInfoInDepartmentReport");
@@ -883,6 +1035,27 @@ namespace The_Box_v0._1
                 new ObjectParameter("trackid", typeof(int));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("track_crs_select", trackidParameter);
+        }
+    
+        public virtual int Update_Exam(Nullable<int> eId, Nullable<int> dur, Nullable<System.DateTime> edate, string startTime)
+        {
+            var eIdParameter = eId.HasValue ?
+                new ObjectParameter("EId", eId) :
+                new ObjectParameter("EId", typeof(int));
+    
+            var durParameter = dur.HasValue ?
+                new ObjectParameter("Dur", dur) :
+                new ObjectParameter("Dur", typeof(int));
+    
+            var edateParameter = edate.HasValue ?
+                new ObjectParameter("Edate", edate) :
+                new ObjectParameter("Edate", typeof(System.DateTime));
+    
+            var startTimeParameter = startTime != null ?
+                new ObjectParameter("StartTime", startTime) :
+                new ObjectParameter("StartTime", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("Update_Exam", eIdParameter, durParameter, edateParameter, startTimeParameter);
         }
     
         public virtual int UpdateChoice(string choiceId, Nullable<int> ques_Id, string updatedAns)

@@ -34,22 +34,20 @@ namespace The_Box_v0._1.instructorGUI
                 CourseNameOfExam.Items.Add(InsCourse.Course_Name);
             }
         }
-
         private void GenerateExam_Click(object sender, EventArgs e)
-        { if (int.Parse(mcqSpilt.Text) + int.Parse(T_f_spilt.Text) == 10)
+        {
+            if (int.Parse(mcqSpilt.Text) + int.Parse(T_f_spilt.Text) == 10)
             {
-                Ent.GetRandomQuestions(CourseID, int.Parse(ExamID.Text), int.Parse(ExamDuration.Text), InstructorID, int.Parse(mcqSpilt.Text), int.Parse(T_f_spilt.Text));
+                DateTime EDate = ExamDate.Value;
+                string ETime = ExamTime.Value.TimeOfDay.ToString();
+                Ent.GetRandomQuestions(CourseID, int.Parse(ExamID.Text), EDate, ETime, int.Parse(ExamDuration.Text), InstructorID, int.Parse(mcqSpilt.Text), int.Parse(T_f_spilt.Text));
                 MessageBox.Show("Exam generated successfully");
             }
-        else
-
+            else
             {
-
                 MessageBox.Show("Num of Q's must be 10");
             }
-
         }
-
         private void CourseNameOfExam_SelectedIndexChanged(object sender, EventArgs e)
         {
             CourseID = (int)Ent.GetCourseID(CourseNameOfExam.Text).First();

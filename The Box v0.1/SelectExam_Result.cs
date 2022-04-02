@@ -17,5 +17,8 @@ namespace The_Box_v0._1
         public Nullable<int> E_Duration { get; set; }
         public string Course_Name { get; set; }
         public string Ins_Name { get; set; }
+        public Nullable<System.DateTime> Date { get; set; }
+        public Nullable<System.TimeSpan> Start_Time { get; set; }
+        public int Ins_ID { get; set; }
     }
 }

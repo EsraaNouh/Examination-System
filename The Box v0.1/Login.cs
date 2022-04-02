@@ -50,9 +50,17 @@ namespace The_Box_v0._1
             }
             else if (AdminRadioBtn.Checked == true)
             {
-                AdminForm adminForm = new AdminForm(this);
-                adminForm.Show();
-                this.Hide();
+                int chk = Ent.CheckAdmin(UserNameText.Text, passwordText.Text).First().Value;
+                if (chk != 0)
+                {
+                    AdminForm adminForm = new AdminForm(this);
+                    adminForm.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Wrong Password .... try again ! ");
+                }
             }
             UserNameText.Text = passwordText.Text = string.Empty;
         }

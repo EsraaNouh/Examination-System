@@ -54,6 +54,7 @@ namespace The_Box_v0._1.StudentGui
             GradeTextBox.Visible = GradeLabel.Visible = true;
             GradeTextBox.Text = Ent.std_crs_select(student.Std_ID, CrsID, null).First().Grade.ToString();
             DisplayExam();
+            //this.Enabled = false;
         }
         public void DisplayExam()
         {
@@ -73,35 +74,43 @@ namespace The_Box_v0._1.StudentGui
                 LY += 20;
                 i++;
                 RadioButton radio;
+                Label label;
                 var choicesofQ = Ent.GetChoiceOfQ(Q.Q_ID).ToList();
                 int lengthofChoice = choicesofQ.Count;
                 for (int j = 0; j < lengthofChoice; j++)
                 {
                     radio = new RadioButton();
+                    label = new Label();
+                    radio.Enabled = false;
                     radio.AutoSize = true;
+                    label.AutoSize = true;
                     radio.Location = new Point(30, LY);
+                    label.Location = new Point(45, LY);
+                    label.ForeColor = Color.DarkGray;
                     if (lengthofChoice == 2)
                     {
                         radio.Name = (j == 0) ? "t" : "f";
-                        radio.Text = (j == 0) ? "True" : "False";
+                        label.Text = (j == 0) ? "True" : "False";
                     }
                     else
                     {
                         radio.Name = choicesofQ[j].ChoiceId.ToString();
-                        radio.Text = choicesofQ[j].Choice_text;
+                        label.Text = choicesofQ[j].Choice_text;
                     }
                     if(Q.Std_Answer == radio.Name)
                     {
                         radio.Checked = true;
-                        radio.ForeColor = (Q.Std_Answer == Q.Q_Model_Answer) ? Color.Black : Color.Red;
+                        label.ForeColor = (Q.Std_Answer == Q.Q_Model_Answer) ? Color.Black : Color.Red;
                     }
                     if(Q.Q_Model_Answer == radio.Name)
                     {
-                        radio.BackColor = Color.Green;
+                        label.BackColor = Color.Green;
+                        label.ForeColor = Color.Black;
+
                     }
                     LY += 20;
-                    //radio.Enabled = false;
                     Controls.Add(radio);
+                    Controls.Add(label);
                 }
                 LY += 20;
             }

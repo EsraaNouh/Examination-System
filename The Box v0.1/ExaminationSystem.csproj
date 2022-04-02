@@ -39,6 +39,10 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms">
+      <HintPath>C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\PROFESSIONAL\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\SSAS\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -48,6 +52,7 @@
     <Reference Include="System.Design" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,6 +69,9 @@
     </Compile>
     <Compile Include="AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Info.cs">
+      <DependentUpon>SystemModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Choice.cs">
       <DependentUpon>SystemModel.tt</DependentUpon>
@@ -110,6 +118,12 @@
     </Compile>
     <Compile Include="InstructorCourseInfoReport_Result.cs">
       <DependentUpon>SystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="instructorGUI\EditExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="instructorGUI\EditExam.Designer.cs">
+      <DependentUpon>EditExam.cs</DependentUpon>
     </Compile>
     <Compile Include="instructorGUI\ExamGenerationForm.cs">
       <SubType>Form</SubType>
@@ -239,12 +253,6 @@
     <Compile Include="StudentGui\StudentMainForm.Designer.cs">
       <DependentUpon>StudentMainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentGui\students_track.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StudentGui\students_track.Designer.cs">
-      <DependentUpon>students_track.cs</DependentUpon>
-    </Compile>
     <Compile Include="StudentGui\ViewCourses.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -257,6 +265,9 @@
     <Compile Include="StudentGui\ViewGrade.Designer.cs">
       <DependentUpon>ViewGrade.cs</DependentUpon>
     </Compile>
+    <Compile Include="StudentHasNotExam_Result.cs">
+      <DependentUpon>SystemModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="StudentInfoInDepartmentReport_Result.cs">
       <DependentUpon>SystemModel.tt</DependentUpon>
     </Compile>
@@ -267,6 +278,9 @@
       <DependentUpon>SystemModel.tt</DependentUpon>
     </Compile>
     <Compile Include="stud_user_pass_Result.cs">
+      <DependentUpon>SystemModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
       <DependentUpon>SystemModel.tt</DependentUpon>
     </Compile>
     <Compile Include="SystemModel.Context.cs">
@@ -293,6 +307,12 @@
     </Compile>
     <EmbeddedResource Include="AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="instructorGUI\EditExam.resx">
+      <DependentUpon>EditExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="instructorGUI\ExamGenerationForm.resx">
+      <DependentUpon>ExamGenerationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="instructorGUI\insCourses.resx">
       <DependentUpon>insCourses.cs</DependentUpon>
@@ -322,14 +342,14 @@
     <EmbeddedResource Include="StudentGui\StudentAnswers.resx">
       <DependentUpon>StudentAnswers.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StudentGui\StudentExamForm.resx">
+      <DependentUpon>StudentExamForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentGui\StudentInfo.resx">
       <DependentUpon>StudentInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentGui\StudentMainForm.resx">
       <DependentUpon>StudentMainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StudentGui\students_track.resx">
-      <DependentUpon>students_track.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentGui\ViewCourses.resx">
       <DependentUpon>ViewCourses.cs</DependentUpon>

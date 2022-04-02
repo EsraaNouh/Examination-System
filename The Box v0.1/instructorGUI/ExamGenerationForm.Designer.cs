@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExamGenerationForm));
             this.ExamId_label = new System.Windows.Forms.Label();
             this.CourseNameOfExam = new System.Windows.Forms.ComboBox();
             this.GenerateExam = new System.Windows.Forms.Button();
@@ -41,34 +42,36 @@
             this.mcqSpilt = new System.Windows.Forms.TextBox();
             this.ExamDuration = new System.Windows.Forms.TextBox();
             this.ExamID = new System.Windows.Forms.TextBox();
+            this.ExamDate = new System.Windows.Forms.DateTimePicker();
+            this.ExamTime = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ExamId_label
             // 
             this.ExamId_label.AutoSize = true;
-            this.ExamId_label.Location = new System.Drawing.Point(-143, 44);
-            this.ExamId_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ExamId_label.Location = new System.Drawing.Point(-107, 36);
             this.ExamId_label.Name = "ExamId_label";
-            this.ExamId_label.Size = new System.Drawing.Size(61, 17);
+            this.ExamId_label.Size = new System.Drawing.Size(48, 13);
             this.ExamId_label.TabIndex = 20;
             this.ExamId_label.Text = "Exam Id ";
             // 
             // CourseNameOfExam
             // 
             this.CourseNameOfExam.FormattingEnabled = true;
-            this.CourseNameOfExam.Location = new System.Drawing.Point(168, 92);
-            this.CourseNameOfExam.Margin = new System.Windows.Forms.Padding(4);
+            this.CourseNameOfExam.Location = new System.Drawing.Point(136, 75);
             this.CourseNameOfExam.Name = "CourseNameOfExam";
-            this.CourseNameOfExam.Size = new System.Drawing.Size(201, 24);
+            this.CourseNameOfExam.Size = new System.Drawing.Size(155, 21);
             this.CourseNameOfExam.TabIndex = 33;
             this.CourseNameOfExam.SelectedIndexChanged += new System.EventHandler(this.CourseNameOfExam_SelectedIndexChanged);
             // 
             // GenerateExam
             // 
-            this.GenerateExam.Location = new System.Drawing.Point(181, 317);
-            this.GenerateExam.Margin = new System.Windows.Forms.Padding(4);
+            this.GenerateExam.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GenerateExam.Location = new System.Drawing.Point(133, 328);
             this.GenerateExam.Name = "GenerateExam";
-            this.GenerateExam.Size = new System.Drawing.Size(171, 28);
+            this.GenerateExam.Size = new System.Drawing.Size(129, 33);
             this.GenerateExam.TabIndex = 32;
             this.GenerateExam.Text = "generateExam";
             this.GenerateExam.UseVisualStyleBackColor = true;
@@ -77,8 +80,8 @@
             // TorFlabel
             // 
             this.TorFlabel.AutoSize = true;
-            this.TorFlabel.Location = new System.Drawing.Point(46, 253);
-            this.TorFlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TorFlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TorFlabel.Location = new System.Drawing.Point(21, 276);
             this.TorFlabel.Name = "TorFlabel";
             this.TorFlabel.Size = new System.Drawing.Size(77, 17);
             this.TorFlabel.TabIndex = 31;
@@ -86,17 +89,16 @@
             // 
             // T_f_spilt
             // 
-            this.T_f_spilt.Location = new System.Drawing.Point(168, 248);
-            this.T_f_spilt.Margin = new System.Windows.Forms.Padding(4);
+            this.T_f_spilt.Location = new System.Drawing.Point(136, 273);
             this.T_f_spilt.Name = "T_f_spilt";
-            this.T_f_spilt.Size = new System.Drawing.Size(205, 22);
+            this.T_f_spilt.Size = new System.Drawing.Size(155, 20);
             this.T_f_spilt.TabIndex = 30;
             // 
             // CourseNameLabel
             // 
             this.CourseNameLabel.AutoSize = true;
-            this.CourseNameLabel.Location = new System.Drawing.Point(46, 99);
-            this.CourseNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CourseNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CourseNameLabel.Location = new System.Drawing.Point(21, 79);
             this.CourseNameLabel.Name = "CourseNameLabel";
             this.CourseNameLabel.Size = new System.Drawing.Size(94, 17);
             this.CourseNameLabel.TabIndex = 29;
@@ -105,8 +107,8 @@
             // MCQlabel
             // 
             this.MCQlabel.AutoSize = true;
-            this.MCQlabel.Location = new System.Drawing.Point(46, 204);
-            this.MCQlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.MCQlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MCQlabel.Location = new System.Drawing.Point(21, 237);
             this.MCQlabel.Name = "MCQlabel";
             this.MCQlabel.Size = new System.Drawing.Size(87, 17);
             this.MCQlabel.TabIndex = 28;
@@ -115,27 +117,26 @@
             // Duration_label
             // 
             this.Duration_label.AutoSize = true;
-            this.Duration_label.Location = new System.Drawing.Point(46, 149);
-            this.Duration_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Duration_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Duration_label.Location = new System.Drawing.Point(21, 192);
             this.Duration_label.Name = "Duration_label";
-            this.Duration_label.Size = new System.Drawing.Size(62, 17);
+            this.Duration_label.Size = new System.Drawing.Size(109, 17);
             this.Duration_label.TabIndex = 26;
-            this.Duration_label.Text = "Duration";
+            this.Duration_label.Text = "Duration(in min)";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(261, 29);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(206, 23);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 17);
+            this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 25;
             // 
             // Exam_IDlabel
             // 
             this.Exam_IDlabel.AutoSize = true;
-            this.Exam_IDlabel.Location = new System.Drawing.Point(46, 50);
-            this.Exam_IDlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Exam_IDlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Exam_IDlabel.Location = new System.Drawing.Point(21, 40);
             this.Exam_IDlabel.Name = "Exam_IDlabel";
             this.Exam_IDlabel.Size = new System.Drawing.Size(59, 17);
             this.Exam_IDlabel.TabIndex = 24;
@@ -143,34 +144,74 @@
             // 
             // mcqSpilt
             // 
-            this.mcqSpilt.Location = new System.Drawing.Point(168, 201);
-            this.mcqSpilt.Margin = new System.Windows.Forms.Padding(4);
+            this.mcqSpilt.Location = new System.Drawing.Point(136, 234);
             this.mcqSpilt.Name = "mcqSpilt";
-            this.mcqSpilt.Size = new System.Drawing.Size(205, 22);
+            this.mcqSpilt.Size = new System.Drawing.Size(155, 20);
             this.mcqSpilt.TabIndex = 23;
             // 
             // ExamDuration
             // 
-            this.ExamDuration.Location = new System.Drawing.Point(168, 146);
-            this.ExamDuration.Margin = new System.Windows.Forms.Padding(4);
+            this.ExamDuration.Location = new System.Drawing.Point(136, 189);
             this.ExamDuration.Name = "ExamDuration";
-            this.ExamDuration.Size = new System.Drawing.Size(205, 22);
+            this.ExamDuration.Size = new System.Drawing.Size(155, 20);
             this.ExamDuration.TabIndex = 22;
             // 
             // ExamID
             // 
-            this.ExamID.Location = new System.Drawing.Point(168, 50);
-            this.ExamID.Margin = new System.Windows.Forms.Padding(4);
+            this.ExamID.Location = new System.Drawing.Point(136, 40);
             this.ExamID.Name = "ExamID";
-            this.ExamID.Size = new System.Drawing.Size(205, 22);
+            this.ExamID.Size = new System.Drawing.Size(155, 20);
             this.ExamID.TabIndex = 21;
+            // 
+            // ExamDate
+            // 
+            this.ExamDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.ExamDate.Location = new System.Drawing.Point(136, 119);
+            this.ExamDate.Name = "ExamDate";
+            this.ExamDate.Size = new System.Drawing.Size(155, 20);
+            this.ExamDate.TabIndex = 34;
+            // 
+            // ExamTime
+            // 
+            this.ExamTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.ExamTime.Location = new System.Drawing.Point(136, 157);
+            this.ExamTime.Name = "ExamTime";
+            this.ExamTime.ShowUpDown = true;
+            this.ExamTime.Size = new System.Drawing.Size(155, 20);
+            this.ExamTime.TabIndex = 35;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(21, 122);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 17);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "Select Date";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(21, 157);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(92, 17);
+            this.label3.TabIndex = 37;
+            this.label3.Text = "Starting Time";
             // 
             // ExamGenerationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(600, 365);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ExamTime);
+            this.Controls.Add(this.ExamDate);
             this.Controls.Add(this.CourseNameOfExam);
             this.Controls.Add(this.GenerateExam);
             this.Controls.Add(this.TorFlabel);
@@ -186,6 +227,7 @@
             this.Controls.Add(this.ExamId_label);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "ExamGenerationForm";
             this.Text = "ExamGenerationForm";
             this.Load += new System.EventHandler(this.ExamGenerationForm_Load);
@@ -208,5 +250,9 @@
         private System.Windows.Forms.TextBox mcqSpilt;
         private System.Windows.Forms.TextBox ExamDuration;
         private System.Windows.Forms.TextBox ExamID;
+        private System.Windows.Forms.DateTimePicker ExamDate;
+        private System.Windows.Forms.DateTimePicker ExamTime;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
     }
 }

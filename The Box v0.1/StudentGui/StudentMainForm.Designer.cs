@@ -42,8 +42,6 @@
             this.StdExamAnsewrs = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.add_courses_label = new System.Windows.Forms.Button();
-            this.InfoStudent_label = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.ShowMessage = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.addTrackLabel = new System.Windows.Forms.Button();
@@ -105,7 +103,7 @@
             this.CloseAppbtn.Size = new System.Drawing.Size(28, 23);
             this.CloseAppbtn.TabIndex = 5;
             this.CloseAppbtn.UseVisualStyleBackColor = true;
-            this.CloseAppbtn.Click += new System.EventHandler(this.CloseAppbtn_Click_1);
+            this.CloseAppbtn.Click += new System.EventHandler(this.CloseAppbtn_Click);
             // 
             // Minimize
             // 
@@ -119,7 +117,7 @@
             this.Minimize.Size = new System.Drawing.Size(28, 23);
             this.Minimize.TabIndex = 4;
             this.Minimize.UseVisualStyleBackColor = true;
-            this.Minimize.Click += new System.EventHandler(this.Minimize_Click_1);
+            this.Minimize.Click += new System.EventHandler(this.Minimize_Click);
             // 
             // MaximizeAppbtn
             // 
@@ -188,8 +186,6 @@
             this.panel2.Controls.Add(this.StdExamAnsewrs);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.add_courses_label);
-            this.panel2.Controls.Add(this.InfoStudent_label);
-            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.ShowMessage);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -206,7 +202,7 @@
             this.Take_Exam_Btn.ForeColor = System.Drawing.Color.White;
             this.Take_Exam_Btn.Image = global::The_Box_v0._1.Properties.Resources.man;
             this.Take_Exam_Btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Take_Exam_Btn.Location = new System.Drawing.Point(0, 198);
+            this.Take_Exam_Btn.Location = new System.Drawing.Point(0, 120);
             this.Take_Exam_Btn.Name = "Take_Exam_Btn";
             this.Take_Exam_Btn.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.Take_Exam_Btn.Size = new System.Drawing.Size(190, 42);
@@ -226,7 +222,7 @@
             this.StdExamAnsewrs.ForeColor = System.Drawing.Color.White;
             this.StdExamAnsewrs.Image = global::The_Box_v0._1.Properties.Resources.man;
             this.StdExamAnsewrs.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.StdExamAnsewrs.Location = new System.Drawing.Point(0, 158);
+            this.StdExamAnsewrs.Location = new System.Drawing.Point(0, 80);
             this.StdExamAnsewrs.Name = "StdExamAnsewrs";
             this.StdExamAnsewrs.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.StdExamAnsewrs.Size = new System.Drawing.Size(190, 40);
@@ -246,7 +242,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::The_Box_v0._1.Properties.Resources.man;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 118);
+            this.button1.Location = new System.Drawing.Point(0, 40);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(190, 40);
@@ -266,7 +262,7 @@
             this.add_courses_label.ForeColor = System.Drawing.Color.White;
             this.add_courses_label.Image = global::The_Box_v0._1.Properties.Resources.man;
             this.add_courses_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.add_courses_label.Location = new System.Drawing.Point(0, 78);
+            this.add_courses_label.Location = new System.Drawing.Point(0, 0);
             this.add_courses_label.Name = "add_courses_label";
             this.add_courses_label.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.add_courses_label.Size = new System.Drawing.Size(190, 40);
@@ -276,46 +272,6 @@
             this.add_courses_label.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.add_courses_label.UseVisualStyleBackColor = true;
             this.add_courses_label.Click += new System.EventHandler(this.Add_courses_label_Click);
-            // 
-            // InfoStudent_label
-            // 
-            this.InfoStudent_label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.InfoStudent_label.FlatAppearance.BorderSize = 0;
-            this.InfoStudent_label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.InfoStudent_label.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InfoStudent_label.ForeColor = System.Drawing.Color.White;
-            this.InfoStudent_label.Image = global::The_Box_v0._1.Properties.Resources.man;
-            this.InfoStudent_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.InfoStudent_label.Location = new System.Drawing.Point(0, 40);
-            this.InfoStudent_label.Name = "InfoStudent_label";
-            this.InfoStudent_label.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.InfoStudent_label.Size = new System.Drawing.Size(190, 38);
-            this.InfoStudent_label.TabIndex = 35;
-            this.InfoStudent_label.Text = "Students per Track";
-            this.InfoStudent_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.InfoStudent_label.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.InfoStudent_label.UseVisualStyleBackColor = true;
-            this.InfoStudent_label.Click += new System.EventHandler(this.InfoStudent_label_Click);
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::The_Box_v0._1.Properties.Resources.man;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(190, 40);
-            this.button2.TabIndex = 34;
-            this.button2.Text = "Student Info";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // ShowMessage
             // 
@@ -528,13 +484,14 @@
             this.MainPanel.CausesValidation = false;
             this.MainPanel.Location = new System.Drawing.Point(193, 78);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(847, 522);
+            this.MainPanel.Size = new System.Drawing.Size(847, 525);
             this.MainPanel.TabIndex = 5;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1040, 603);
             this.Controls.Add(this.MainPanel);
@@ -593,7 +550,5 @@
         private System.Windows.Forms.Button StdExamAnsewrs;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button add_courses_label;
-        internal System.Windows.Forms.Button InfoStudent_label;
-        private System.Windows.Forms.Button button2;
     }
 }

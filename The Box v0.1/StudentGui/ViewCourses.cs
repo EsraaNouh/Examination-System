@@ -27,7 +27,8 @@ namespace The_Box_v0._1.StudentGui
             user = User;
             labels = new Label[100];
             i = 0;
-            x = 300; y = 150;
+            x = 300;
+            y = 150;
         }
         private void ViewCourses_Load(object sender, EventArgs e)
         {
@@ -38,13 +39,16 @@ namespace The_Box_v0._1.StudentGui
             {
                 labels[i] = new Label();
                 labels[i].ForeColor = System.Drawing.Color.White;
+                //String CName = c.ToString();
+                //var grade = Ent.std_crsname(stdid, CName).FirstOrDefault().Grade;
+                //string g = grade.ToString(); 
+                //labels[i].Text = i + 1 + "-" + c + ": Grade:  " + grade;
                 labels[i].Text = i + 1 + "-" + c;
                 labels[i].Location = new System.Drawing.Point(x, y);
                 labels[i].Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 this.Controls.Add(labels[i]);
                 i++;
                 y += 50;
-
             }
         }
     }

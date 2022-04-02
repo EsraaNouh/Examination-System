@@ -11,14 +11,9 @@ namespace The_Box_v0._1
 {
     using System;
     
-    public partial class GetRandomExam_Result
+    public partial class StudentHasNotExam_Result
     {
-        public int E_ID { get; set; }
-        public int Q_ID { get; set; }
-        public string Q_Text { get; set; }
-        public string Q_Type { get; set; }
-        public Nullable<System.DateTime> Date { get; set; }
-        public Nullable<System.TimeSpan> Start_Time { get; set; }
-        public Nullable<int> E_Duration { get; set; }
+        public int Course_Id { get; set; }
+        public string Course_Name { get; set; }
     }
 }

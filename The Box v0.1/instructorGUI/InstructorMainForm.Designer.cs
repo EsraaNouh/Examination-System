@@ -29,42 +29,43 @@
         private void InitializeComponent()
         {
             this.panel3 = new System.Windows.Forms.Panel();
+            this.addTrackLabel = new System.Windows.Forms.Button();
+            this.Add_ins_label = new System.Windows.Forms.Button();
+            this.AddExam_label = new System.Windows.Forms.Button();
+            this.topicsInCourseLabel = new System.Windows.Forms.Button();
+            this.Courses_per_int_label = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.WelcPanel = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.inst_label = new System.Windows.Forms.Label();
             this.StudentName = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.ShowMessage = new System.Windows.Forms.Label();
-            this.ImagePanel = new System.Windows.Forms.Panel();
-            this.LeftPanel = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.HdrPanel = new System.Windows.Forms.Panel();
-            this.MainPanel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.Gen_Exam_Btn = new System.Windows.Forms.Button();
             this.InsertQ_label = new System.Windows.Forms.Button();
             this.Courses_Label = new System.Windows.Forms.Button();
             this.StudentInfo_label = new System.Windows.Forms.Button();
-            this.addTrackLabel = new System.Windows.Forms.Button();
-            this.Add_ins_label = new System.Windows.Forms.Button();
-            this.AddExam_label = new System.Windows.Forms.Button();
-            this.topicsInCourseLabel = new System.Windows.Forms.Button();
-            this.Courses_per_int_label = new System.Windows.Forms.Button();
+            this.ShowMessage = new System.Windows.Forms.Label();
+            this.ImagePanel = new System.Windows.Forms.Panel();
             this.MainImage = new System.Windows.Forms.PictureBox();
+            this.LeftPanel = new System.Windows.Forms.Panel();
             this.SignoutBtn = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.HdrPanel = new System.Windows.Forms.Panel();
             this.CloseFormbtn = new System.Windows.Forms.Button();
             this.CloseAppbtn = new System.Windows.Forms.Button();
             this.Minimize = new System.Windows.Forms.Button();
             this.MaximizeAppbtn = new System.Windows.Forms.Button();
+            this.MainPanel = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
             this.WelcPanel.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
             this.ImagePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MainImage)).BeginInit();
             this.LeftPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.HdrPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.MainImage)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -80,225 +81,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(178, 522);
             this.panel3.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 12.25F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(183, 124);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(396, 23);
-            this.label1.TabIndex = 23;
-            this.label1.Text = "Will be array of Labels defined with size of array";
-            // 
-            // WelcPanel
-            // 
-            this.WelcPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.WelcPanel.Controls.Add(this.panel4);
-            this.WelcPanel.Controls.Add(this.StudentName);
-            this.WelcPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.WelcPanel.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.WelcPanel.Location = new System.Drawing.Point(0, 0);
-            this.WelcPanel.Name = "WelcPanel";
-            this.WelcPanel.Size = new System.Drawing.Size(190, 78);
-            this.WelcPanel.TabIndex = 0;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.panel4.Controls.Add(this.inst_label);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(190, 78);
-            this.panel4.TabIndex = 2;
-            // 
-            // inst_label
-            // 
-            this.inst_label.AutoSize = true;
-            this.inst_label.Font = new System.Drawing.Font("Trebuchet MS", 20F);
-            this.inst_label.Location = new System.Drawing.Point(-6, 22);
-            this.inst_label.Name = "inst_label";
-            this.inst_label.Size = new System.Drawing.Size(203, 35);
-            this.inst_label.TabIndex = 1;
-            this.inst_label.Text = "InstructorName";
-            this.inst_label.Click += new System.EventHandler(this.Inst_label_Click);
-            // 
-            // StudentName
-            // 
-            this.StudentName.AutoSize = true;
-            this.StudentName.Font = new System.Drawing.Font("Trebuchet MS", 20F);
-            this.StudentName.Location = new System.Drawing.Point(12, 22);
-            this.StudentName.Name = "StudentName";
-            this.StudentName.Size = new System.Drawing.Size(176, 35);
-            this.StudentName.TabIndex = 1;
-            this.StudentName.Text = "studentName";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.panel2.Controls.Add(this.Gen_Exam_Btn);
-            this.panel2.Controls.Add(this.InsertQ_label);
-            this.panel2.Controls.Add(this.Courses_Label);
-            this.panel2.Controls.Add(this.StudentInfo_label);
-            this.panel2.Controls.Add(this.ShowMessage);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(190, 436);
-            this.panel2.TabIndex = 2;
-            // 
-            // ShowMessage
-            // 
-            this.ShowMessage.AutoSize = true;
-            this.ShowMessage.Font = new System.Drawing.Font("Trebuchet MS", 12.25F, System.Drawing.FontStyle.Bold);
-            this.ShowMessage.ForeColor = System.Drawing.Color.White;
-            this.ShowMessage.Location = new System.Drawing.Point(183, 124);
-            this.ShowMessage.Name = "ShowMessage";
-            this.ShowMessage.Size = new System.Drawing.Size(396, 23);
-            this.ShowMessage.TabIndex = 23;
-            this.ShowMessage.Text = "Will be array of Labels defined with size of array";
-            // 
-            // ImagePanel
-            // 
-            this.ImagePanel.Controls.Add(this.panel2);
-            this.ImagePanel.Controls.Add(this.panel3);
-            this.ImagePanel.Controls.Add(this.MainImage);
-            this.ImagePanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ImagePanel.Location = new System.Drawing.Point(0, 0);
-            this.ImagePanel.Name = "ImagePanel";
-            this.ImagePanel.Size = new System.Drawing.Size(190, 436);
-            this.ImagePanel.TabIndex = 4;
-            // 
-            // LeftPanel
-            // 
-            this.LeftPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(53)))), ((int)(((byte)(82)))));
-            this.LeftPanel.Controls.Add(this.ImagePanel);
-            this.LeftPanel.Controls.Add(this.SignoutBtn);
-            this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LeftPanel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(53)))), ((int)(((byte)(82)))));
-            this.LeftPanel.Location = new System.Drawing.Point(0, 78);
-            this.LeftPanel.Name = "LeftPanel";
-            this.LeftPanel.Size = new System.Drawing.Size(190, 490);
-            this.LeftPanel.TabIndex = 1;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Controls.Add(this.LeftPanel);
-            this.panel1.Controls.Add(this.WelcPanel);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 48);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(190, 568);
-            this.panel1.TabIndex = 6;
-            // 
-            // HdrPanel
-            // 
-            this.HdrPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.HdrPanel.Controls.Add(this.CloseFormbtn);
-            this.HdrPanel.Controls.Add(this.CloseAppbtn);
-            this.HdrPanel.Controls.Add(this.Minimize);
-            this.HdrPanel.Controls.Add(this.MaximizeAppbtn);
-            this.HdrPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.HdrPanel.Location = new System.Drawing.Point(0, 0);
-            this.HdrPanel.Name = "HdrPanel";
-            this.HdrPanel.Size = new System.Drawing.Size(985, 48);
-            this.HdrPanel.TabIndex = 7;
-            // 
-            // MainPanel
-            // 
-            this.MainPanel.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.MainPanel.BackgroundImage = global::The_Box_v0._1.Properties.Resources.iti_logo;
-            this.MainPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.MainPanel.CausesValidation = false;
-            this.MainPanel.Location = new System.Drawing.Point(187, 51);
-            this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(833, 562);
-            this.MainPanel.TabIndex = 8;
-            // 
-            // Gen_Exam_Btn
-            // 
-            this.Gen_Exam_Btn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Gen_Exam_Btn.FlatAppearance.BorderSize = 0;
-            this.Gen_Exam_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Gen_Exam_Btn.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gen_Exam_Btn.ForeColor = System.Drawing.Color.White;
-            this.Gen_Exam_Btn.Image = global::The_Box_v0._1.Properties.Resources.Letter_Q_icon;
-            this.Gen_Exam_Btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Gen_Exam_Btn.Location = new System.Drawing.Point(0, 101);
-            this.Gen_Exam_Btn.Name = "Gen_Exam_Btn";
-            this.Gen_Exam_Btn.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.Gen_Exam_Btn.Size = new System.Drawing.Size(190, 34);
-            this.Gen_Exam_Btn.TabIndex = 32;
-            this.Gen_Exam_Btn.Text = "Generate Exam";
-            this.Gen_Exam_Btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Gen_Exam_Btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Gen_Exam_Btn.UseVisualStyleBackColor = true;
-            this.Gen_Exam_Btn.Click += new System.EventHandler(this.Gen_Exam_Btn_Click);
-            // 
-            // InsertQ_label
-            // 
-            this.InsertQ_label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.InsertQ_label.FlatAppearance.BorderSize = 0;
-            this.InsertQ_label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.InsertQ_label.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InsertQ_label.ForeColor = System.Drawing.Color.White;
-            this.InsertQ_label.Image = global::The_Box_v0._1.Properties.Resources.Letter_Q_icon;
-            this.InsertQ_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.InsertQ_label.Location = new System.Drawing.Point(0, 67);
-            this.InsertQ_label.Name = "InsertQ_label";
-            this.InsertQ_label.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.InsertQ_label.Size = new System.Drawing.Size(190, 34);
-            this.InsertQ_label.TabIndex = 30;
-            this.InsertQ_label.Text = "Insert Question";
-            this.InsertQ_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.InsertQ_label.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.InsertQ_label.UseVisualStyleBackColor = true;
-            this.InsertQ_label.Click += new System.EventHandler(this.Button2_Click);
-            // 
-            // Courses_Label
-            // 
-            this.Courses_Label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Courses_Label.FlatAppearance.BorderSize = 0;
-            this.Courses_Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Courses_Label.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Courses_Label.ForeColor = System.Drawing.Color.White;
-            this.Courses_Label.Image = global::The_Box_v0._1.Properties.Resources.Product_sale_report_icon;
-            this.Courses_Label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Courses_Label.Location = new System.Drawing.Point(0, 32);
-            this.Courses_Label.Name = "Courses_Label";
-            this.Courses_Label.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.Courses_Label.Size = new System.Drawing.Size(190, 35);
-            this.Courses_Label.TabIndex = 25;
-            this.Courses_Label.Text = "Courses";
-            this.Courses_Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Courses_Label.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Courses_Label.UseVisualStyleBackColor = true;
-            this.Courses_Label.Click += new System.EventHandler(this.Courses_Label_Click);
-            // 
-            // StudentInfo_label
-            // 
-            this.StudentInfo_label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.StudentInfo_label.FlatAppearance.BorderSize = 0;
-            this.StudentInfo_label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StudentInfo_label.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StudentInfo_label.ForeColor = System.Drawing.Color.White;
-            this.StudentInfo_label.Image = global::The_Box_v0._1.Properties.Resources.Product_sale_report_icon;
-            this.StudentInfo_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.StudentInfo_label.Location = new System.Drawing.Point(0, 0);
-            this.StudentInfo_label.Name = "StudentInfo_label";
-            this.StudentInfo_label.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.StudentInfo_label.Size = new System.Drawing.Size(190, 32);
-            this.StudentInfo_label.TabIndex = 24;
-            this.StudentInfo_label.Text = "Instructor Info";
-            this.StudentInfo_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.StudentInfo_label.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.StudentInfo_label.UseVisualStyleBackColor = true;
-            this.StudentInfo_label.Click += new System.EventHandler(this.StudentInfo_label_Click);
             // 
             // addTrackLabel
             // 
@@ -395,6 +177,198 @@
             this.Courses_per_int_label.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Courses_per_int_label.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 12.25F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(183, 124);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(396, 23);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "Will be array of Labels defined with size of array";
+            // 
+            // WelcPanel
+            // 
+            this.WelcPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.WelcPanel.Controls.Add(this.panel4);
+            this.WelcPanel.Controls.Add(this.StudentName);
+            this.WelcPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.WelcPanel.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.WelcPanel.Location = new System.Drawing.Point(0, 0);
+            this.WelcPanel.Name = "WelcPanel";
+            this.WelcPanel.Size = new System.Drawing.Size(190, 78);
+            this.WelcPanel.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.panel4.Controls.Add(this.inst_label);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(190, 78);
+            this.panel4.TabIndex = 2;
+            // 
+            // inst_label
+            // 
+            this.inst_label.AutoSize = true;
+            this.inst_label.Font = new System.Drawing.Font("Trebuchet MS", 20F);
+            this.inst_label.Location = new System.Drawing.Point(-6, 22);
+            this.inst_label.Name = "inst_label";
+            this.inst_label.Size = new System.Drawing.Size(203, 35);
+            this.inst_label.TabIndex = 1;
+            this.inst_label.Text = "InstructorName";
+            this.inst_label.Click += new System.EventHandler(this.Inst_label_Click);
+            // 
+            // StudentName
+            // 
+            this.StudentName.AutoSize = true;
+            this.StudentName.Font = new System.Drawing.Font("Trebuchet MS", 20F);
+            this.StudentName.Location = new System.Drawing.Point(12, 22);
+            this.StudentName.Name = "StudentName";
+            this.StudentName.Size = new System.Drawing.Size(176, 35);
+            this.StudentName.TabIndex = 1;
+            this.StudentName.Text = "studentName";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.Gen_Exam_Btn);
+            this.panel2.Controls.Add(this.InsertQ_label);
+            this.panel2.Controls.Add(this.Courses_Label);
+            this.panel2.Controls.Add(this.StudentInfo_label);
+            this.panel2.Controls.Add(this.ShowMessage);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(190, 436);
+            this.panel2.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::The_Box_v0._1.Properties.Resources.Letter_Q_icon;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(0, 135);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(190, 34);
+            this.button1.TabIndex = 33;
+            this.button1.Text = "Update Exam";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // Gen_Exam_Btn
+            // 
+            this.Gen_Exam_Btn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Gen_Exam_Btn.FlatAppearance.BorderSize = 0;
+            this.Gen_Exam_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Gen_Exam_Btn.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gen_Exam_Btn.ForeColor = System.Drawing.Color.White;
+            this.Gen_Exam_Btn.Image = global::The_Box_v0._1.Properties.Resources.Letter_Q_icon;
+            this.Gen_Exam_Btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Gen_Exam_Btn.Location = new System.Drawing.Point(0, 101);
+            this.Gen_Exam_Btn.Name = "Gen_Exam_Btn";
+            this.Gen_Exam_Btn.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.Gen_Exam_Btn.Size = new System.Drawing.Size(190, 34);
+            this.Gen_Exam_Btn.TabIndex = 32;
+            this.Gen_Exam_Btn.Text = "Generate Exam";
+            this.Gen_Exam_Btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Gen_Exam_Btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Gen_Exam_Btn.UseVisualStyleBackColor = true;
+            this.Gen_Exam_Btn.Click += new System.EventHandler(this.Gen_Exam_Btn_Click);
+            // 
+            // InsertQ_label
+            // 
+            this.InsertQ_label.Dock = System.Windows.Forms.DockStyle.Top;
+            this.InsertQ_label.FlatAppearance.BorderSize = 0;
+            this.InsertQ_label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.InsertQ_label.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InsertQ_label.ForeColor = System.Drawing.Color.White;
+            this.InsertQ_label.Image = global::The_Box_v0._1.Properties.Resources.Letter_Q_icon;
+            this.InsertQ_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.InsertQ_label.Location = new System.Drawing.Point(0, 67);
+            this.InsertQ_label.Name = "InsertQ_label";
+            this.InsertQ_label.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.InsertQ_label.Size = new System.Drawing.Size(190, 34);
+            this.InsertQ_label.TabIndex = 30;
+            this.InsertQ_label.Text = "Insert Question";
+            this.InsertQ_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.InsertQ_label.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.InsertQ_label.UseVisualStyleBackColor = true;
+            this.InsertQ_label.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // Courses_Label
+            // 
+            this.Courses_Label.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Courses_Label.FlatAppearance.BorderSize = 0;
+            this.Courses_Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Courses_Label.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Courses_Label.ForeColor = System.Drawing.Color.White;
+            this.Courses_Label.Image = global::The_Box_v0._1.Properties.Resources.Product_sale_report_icon;
+            this.Courses_Label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Courses_Label.Location = new System.Drawing.Point(0, 32);
+            this.Courses_Label.Name = "Courses_Label";
+            this.Courses_Label.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.Courses_Label.Size = new System.Drawing.Size(190, 35);
+            this.Courses_Label.TabIndex = 25;
+            this.Courses_Label.Text = "Courses";
+            this.Courses_Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Courses_Label.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Courses_Label.UseVisualStyleBackColor = true;
+            this.Courses_Label.Click += new System.EventHandler(this.Courses_Label_Click);
+            // 
+            // StudentInfo_label
+            // 
+            this.StudentInfo_label.Dock = System.Windows.Forms.DockStyle.Top;
+            this.StudentInfo_label.FlatAppearance.BorderSize = 0;
+            this.StudentInfo_label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.StudentInfo_label.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StudentInfo_label.ForeColor = System.Drawing.Color.White;
+            this.StudentInfo_label.Image = global::The_Box_v0._1.Properties.Resources.Product_sale_report_icon;
+            this.StudentInfo_label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.StudentInfo_label.Location = new System.Drawing.Point(0, 0);
+            this.StudentInfo_label.Name = "StudentInfo_label";
+            this.StudentInfo_label.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.StudentInfo_label.Size = new System.Drawing.Size(190, 32);
+            this.StudentInfo_label.TabIndex = 24;
+            this.StudentInfo_label.Text = "Instructor Info";
+            this.StudentInfo_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.StudentInfo_label.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.StudentInfo_label.UseVisualStyleBackColor = true;
+            this.StudentInfo_label.Click += new System.EventHandler(this.StudentInfo_label_Click);
+            // 
+            // ShowMessage
+            // 
+            this.ShowMessage.AutoSize = true;
+            this.ShowMessage.Font = new System.Drawing.Font("Trebuchet MS", 12.25F, System.Drawing.FontStyle.Bold);
+            this.ShowMessage.ForeColor = System.Drawing.Color.White;
+            this.ShowMessage.Location = new System.Drawing.Point(183, 124);
+            this.ShowMessage.Name = "ShowMessage";
+            this.ShowMessage.Size = new System.Drawing.Size(396, 23);
+            this.ShowMessage.TabIndex = 23;
+            this.ShowMessage.Text = "Will be array of Labels defined with size of array";
+            // 
+            // ImagePanel
+            // 
+            this.ImagePanel.Controls.Add(this.panel2);
+            this.ImagePanel.Controls.Add(this.panel3);
+            this.ImagePanel.Controls.Add(this.MainImage);
+            this.ImagePanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ImagePanel.Location = new System.Drawing.Point(0, 0);
+            this.ImagePanel.Name = "ImagePanel";
+            this.ImagePanel.Size = new System.Drawing.Size(190, 436);
+            this.ImagePanel.TabIndex = 4;
+            // 
             // MainImage
             // 
             this.MainImage.Location = new System.Drawing.Point(0, 0);
@@ -403,6 +377,18 @@
             this.MainImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.MainImage.TabIndex = 0;
             this.MainImage.TabStop = false;
+            // 
+            // LeftPanel
+            // 
+            this.LeftPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(53)))), ((int)(((byte)(82)))));
+            this.LeftPanel.Controls.Add(this.ImagePanel);
+            this.LeftPanel.Controls.Add(this.SignoutBtn);
+            this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LeftPanel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(53)))), ((int)(((byte)(82)))));
+            this.LeftPanel.Location = new System.Drawing.Point(0, 78);
+            this.LeftPanel.Name = "LeftPanel";
+            this.LeftPanel.Size = new System.Drawing.Size(190, 490);
+            this.LeftPanel.TabIndex = 1;
             // 
             // SignoutBtn
             // 
@@ -423,6 +409,31 @@
             this.SignoutBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.SignoutBtn.UseVisualStyleBackColor = true;
             this.SignoutBtn.Click += new System.EventHandler(this.SignoutBtn_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.Controls.Add(this.LeftPanel);
+            this.panel1.Controls.Add(this.WelcPanel);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 48);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(190, 568);
+            this.panel1.TabIndex = 6;
+            // 
+            // HdrPanel
+            // 
+            this.HdrPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.HdrPanel.Controls.Add(this.CloseFormbtn);
+            this.HdrPanel.Controls.Add(this.CloseAppbtn);
+            this.HdrPanel.Controls.Add(this.Minimize);
+            this.HdrPanel.Controls.Add(this.MaximizeAppbtn);
+            this.HdrPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.HdrPanel.Location = new System.Drawing.Point(0, 0);
+            this.HdrPanel.Name = "HdrPanel";
+            this.HdrPanel.Size = new System.Drawing.Size(985, 48);
+            this.HdrPanel.TabIndex = 7;
             // 
             // CloseFormbtn
             // 
@@ -478,10 +489,22 @@
             this.MaximizeAppbtn.UseVisualStyleBackColor = true;
             this.MaximizeAppbtn.Click += new System.EventHandler(this.MaximizeAppbtn_Click);
             // 
+            // MainPanel
+            // 
+            this.MainPanel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.MainPanel.BackgroundImage = global::The_Box_v0._1.Properties.Resources.iti_logo;
+            this.MainPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.MainPanel.CausesValidation = false;
+            this.MainPanel.Location = new System.Drawing.Point(187, 51);
+            this.MainPanel.Name = "MainPanel";
+            this.MainPanel.Size = new System.Drawing.Size(833, 565);
+            this.MainPanel.TabIndex = 8;
+            // 
             // InstructorMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(985, 616);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.panel1);
@@ -499,10 +522,10 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ImagePanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.MainImage)).EndInit();
             this.LeftPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.HdrPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.MainImage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -537,5 +560,6 @@
         private System.Windows.Forms.Panel HdrPanel;
         private System.Windows.Forms.Button InsertQ_label;
         private System.Windows.Forms.Button Gen_Exam_Btn;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -33,6 +33,7 @@ namespace The_Box_v0._1.instructorGUI
             CloseFormbtn.Visible = false;
             instructor = ins;
             User = ins.Ins_UserName;
+            inst_label.Text = "  "+User;
         }
         private Color SelectThemeColor()
         {
@@ -159,6 +160,11 @@ namespace The_Box_v0._1.instructorGUI
         private void Gen_Exam_Btn_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ExamGenerationForm(instructor.Ins_ID), sender);
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new EditExam(instructor.Ins_ID), sender);
         }
     }
 }

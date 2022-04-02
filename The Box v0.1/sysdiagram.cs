@@ -10,15 +10,14 @@
 namespace The_Box_v0._1
 {
     using System;
+    using System.Collections.Generic;
     
-    public partial class GetRandomExam_Result
+    public partial class sysdiagram
     {
-        public int E_ID { get; set; }
-        public int Q_ID { get; set; }
-        public string Q_Text { get; set; }
-        public string Q_Type { get; set; }
-        public Nullable<System.DateTime> Date { get; set; }
-        public Nullable<System.TimeSpan> Start_Time { get; set; }
-        public Nullable<int> E_Duration { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

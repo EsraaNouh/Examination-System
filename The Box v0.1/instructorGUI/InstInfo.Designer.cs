@@ -36,7 +36,6 @@
             this.UserNameT = new System.Windows.Forms.Label();
             this.EmailLabel = new System.Windows.Forms.Label();
             this.UserNameLabel = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -44,10 +43,11 @@
             this.UserNameText = new System.Windows.Forms.TextBox();
             this.ImagePanel = new System.Windows.Forms.Panel();
             this.Name = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.MainImage = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.ImagePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -133,16 +133,6 @@
             this.UserNameLabel.Size = new System.Drawing.Size(96, 23);
             this.UserNameLabel.TabIndex = 27;
             this.UserNameLabel.Text = "User Name";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(800, 344);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -237,6 +227,16 @@
             this.Name.Size = new System.Drawing.Size(0, 23);
             this.Name.TabIndex = 40;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(800, 344);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 26;
+            this.pictureBox2.TabStop = false;
+            // 
             // MainImage
             // 
             this.MainImage.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -251,16 +251,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ImagePanel);
             //this.Name = "InstInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InstInfo";
             this.Load += new System.EventHandler(this.InstInfo_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ImagePanel.ResumeLayout(false);
             this.ImagePanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainImage)).EndInit();
             this.ResumeLayout(false);
 
@@ -275,7 +276,6 @@
         private System.Windows.Forms.Label UserNameT;
         private System.Windows.Forms.Label EmailLabel;
         private System.Windows.Forms.Label UserNameLabel;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -284,5 +284,6 @@
         private System.Windows.Forms.Panel ImagePanel;
         private System.Windows.Forms.PictureBox MainImage;
         private System.Windows.Forms.Label Name;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

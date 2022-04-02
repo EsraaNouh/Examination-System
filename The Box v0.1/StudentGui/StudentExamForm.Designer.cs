@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentExamForm));
             this.ChooseCourselabel = new System.Windows.Forms.Label();
             this.ChooseCourse = new System.Windows.Forms.ComboBox();
             this.Start_Exam_Btn = new System.Windows.Forms.Button();
@@ -39,28 +40,30 @@
             // ChooseCourselabel
             // 
             this.ChooseCourselabel.AutoSize = true;
-            this.ChooseCourselabel.Location = new System.Drawing.Point(46, 37);
+            this.ChooseCourselabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChooseCourselabel.Location = new System.Drawing.Point(47, 36);
             this.ChooseCourselabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ChooseCourselabel.Name = "ChooseCourselabel";
-            this.ChooseCourselabel.Size = new System.Drawing.Size(79, 13);
+            this.ChooseCourselabel.Size = new System.Drawing.Size(105, 17);
             this.ChooseCourselabel.TabIndex = 0;
             this.ChooseCourselabel.Text = "Choose Course";
             // 
             // ChooseCourse
             // 
             this.ChooseCourse.FormattingEnabled = true;
-            this.ChooseCourse.Location = new System.Drawing.Point(176, 34);
-            this.ChooseCourse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChooseCourse.Location = new System.Drawing.Point(175, 34);
+            this.ChooseCourse.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.ChooseCourse.Name = "ChooseCourse";
             this.ChooseCourse.Size = new System.Drawing.Size(92, 21);
             this.ChooseCourse.TabIndex = 1;
             // 
             // Start_Exam_Btn
             // 
+            this.Start_Exam_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Start_Exam_Btn.Location = new System.Drawing.Point(327, 31);
-            this.Start_Exam_Btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Start_Exam_Btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Start_Exam_Btn.Name = "Start_Exam_Btn";
-            this.Start_Exam_Btn.Size = new System.Drawing.Size(80, 25);
+            this.Start_Exam_Btn.Size = new System.Drawing.Size(79, 25);
             this.Start_Exam_Btn.TabIndex = 2;
             this.Start_Exam_Btn.Text = "Start Exam";
             this.Start_Exam_Btn.UseVisualStyleBackColor = true;
@@ -68,10 +71,11 @@
             // 
             // NextQ
             // 
-            this.NextQ.Location = new System.Drawing.Point(244, 333);
-            this.NextQ.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NextQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NextQ.Location = new System.Drawing.Point(33, 143);
+            this.NextQ.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.NextQ.Name = "NextQ";
-            this.NextQ.Size = new System.Drawing.Size(86, 23);
+            this.NextQ.Size = new System.Drawing.Size(107, 31);
             this.NextQ.TabIndex = 3;
             this.NextQ.Text = "Next Question";
             this.NextQ.UseVisualStyleBackColor = true;
@@ -79,10 +83,11 @@
             // 
             // Submit_Exam_Btn
             // 
-            this.Submit_Exam_Btn.Location = new System.Drawing.Point(530, 334);
-            this.Submit_Exam_Btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Submit_Exam_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Submit_Exam_Btn.Location = new System.Drawing.Point(33, 188);
+            this.Submit_Exam_Btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Submit_Exam_Btn.Name = "Submit_Exam_Btn";
-            this.Submit_Exam_Btn.Size = new System.Drawing.Size(56, 22);
+            this.Submit_Exam_Btn.Size = new System.Drawing.Size(65, 31);
             this.Submit_Exam_Btn.TabIndex = 4;
             this.Submit_Exam_Btn.Text = "Submit";
             this.Submit_Exam_Btn.UseVisualStyleBackColor = true;
@@ -91,25 +96,25 @@
             // TimerLabel
             // 
             this.TimerLabel.AutoSize = true;
-            this.TimerLabel.Location = new System.Drawing.Point(461, 37);
+            this.TimerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimerLabel.Location = new System.Drawing.Point(452, 53);
             this.TimerLabel.Name = "TimerLabel";
-            this.TimerLabel.Size = new System.Drawing.Size(35, 13);
+            this.TimerLabel.Size = new System.Drawing.Size(0, 17);
             this.TimerLabel.TabIndex = 5;
-            this.TimerLabel.Text = "label1";
-            this.TimerLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // StudentExamForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(600, 365);
             this.Controls.Add(this.TimerLabel);
             this.Controls.Add(this.Submit_Exam_Btn);
             this.Controls.Add(this.NextQ);
             this.Controls.Add(this.Start_Exam_Btn);
             this.Controls.Add(this.ChooseCourse);
             this.Controls.Add(this.ChooseCourselabel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "StudentExamForm";
             this.Text = "StudentExamForm";
             this.Load += new System.EventHandler(this.StudentExamForm_Load);

@@ -36,20 +36,22 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(294, 147);
+            this.label2.Location = new System.Drawing.Point(277, 226);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 16);
+            this.label2.Size = new System.Drawing.Size(181, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Choose Course";
             // 
             // std_courses
             // 
             this.std_courses.FormattingEnabled = true;
-            this.std_courses.Location = new System.Drawing.Point(405, 147);
+            this.std_courses.Location = new System.Drawing.Point(525, 230);
+            this.std_courses.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.std_courses.Name = "std_courses";
-            this.std_courses.Size = new System.Drawing.Size(121, 21);
+            this.std_courses.Size = new System.Drawing.Size(199, 28);
             this.std_courses.TabIndex = 3;
             this.std_courses.SelectedIndexChanged += new System.EventHandler(this.Std_courses_SelectedIndexChanged);
             // 
@@ -58,20 +60,22 @@
             this.grade_label.AutoSize = true;
             this.grade_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grade_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.grade_label.Location = new System.Drawing.Point(316, 204);
+            this.grade_label.Location = new System.Drawing.Point(474, 314);
+            this.grade_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.grade_label.Name = "grade_label";
-            this.grade_label.Size = new System.Drawing.Size(0, 24);
+            this.grade_label.Size = new System.Drawing.Size(0, 33);
             this.grade_label.TabIndex = 4;
             // 
             // ViewGrade
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.grade_label);
             this.Controls.Add(this.std_courses);
             this.Controls.Add(this.label2);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ViewGrade";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ViewGrade";
