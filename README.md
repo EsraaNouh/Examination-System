@@ -21,17 +21,13 @@
 
 
 
-----------
+--------------------
 
 # Pysical tables 
 
  <img width="1000" src="https://github.com/EsraaNouh/examinationsystemV1/blob/master/pysical%20table.png">
- 
- ## Features of System 
- 
-
-
 --------------------
+
 ## Referential integrity constraints of System 
 ```
 * course
@@ -113,6 +109,7 @@
 
 
 ```
+--------------------
 ## The Dictionary of Our Database 
 | Schema Name | Table Name       | Column Name      | Data Type | Data Type ext  | Nullable | Primary Key | Foreign Key | Unique Key | Column  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Description                                                                                                                                    |
 | ----------- | ---------------- | ---------------- | --------- | -------------- | -------- | ----------- | ----------- | ---------- | -------------------------------------------------------------------------------------------------------- |
@@ -170,10 +167,7 @@
 | dbo         | Track\_Courses   | Course\_Id       | int       | int            | N        | PK          | FK          |            | ID of a course that is being taught within a specific track                                              |
 | dbo         | Track\_Courses   | Track\_Id        | int       | int            | N        | PK          | FK          |            | ID of a track, in which a specific bunch of courses is being taught                                      |
 
-
-
-
-
+--------------------
 ## Examination System Application Features and Privileges
 There are 3 main types of users for this application:
 1.	### Instructors
@@ -196,7 +190,7 @@ There are 3 main types of users for this application:
 *	Can add instructors, students and courses to the system.
 *	Can create exams on behalf of instructors depending on courses they teach.
 *	Can view all kinds of reports.
-
+-------------------- 
 ## Contributors
 <table>
   <tr>
@@ -205,12 +199,6 @@ There are 3 main types of users for this application:
     <img src="https://avatars.githubusercontent.com/u/62313686?v=4" width="150px;" alt="Mostafa Gad "/>
     <br />
     <sub><b>Mostafa Gad </b></sub></a><br />
-    </td>
-    <td align="center">
-    <a href="https://github.com/aliaamhmd" target="_black">
-    <img src="https://avatars.githubusercontent.com/u/95531194?v=4" width="150px;" alt="Aliaa "/>
-    <br />
-    <sub><b> Aliaa</b></sub></a><br />
     </td>
     <td align="center">
     <a href="https://github.com/aliaamhmd" target="_black">
@@ -236,16 +224,13 @@ There are 3 main types of users for this application:
     <br />
     <sub><b>Aya Attia</b></sub></a><br />
     </td>
-    
-    
-        <td align="center">
+    <td align="center">
     <a href="https://github.com/yarahmed" target="_black">
     <img src="https://avatars.githubusercontent.com/u/95531259?v=4" width="150px;" alt="Yara "/>
     <br />
     <sub><b>Yara </b></sub></a><br />
     </td>
-    
-            <td align="center">
+    <td align="center">
     <a href="https://github.com/Mary-Akram" target="_black">
     <img src="https://avatars.githubusercontent.com/u/95533198?v=4" width="150px;" alt="Mary Akram "/>
     <br />
