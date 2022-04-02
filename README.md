@@ -238,6 +238,21 @@ There are 3 main types of users for this application:
     </td>
     
     
+        <td align="center">
+    <a href="https://github.com/yarahmed" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/95531259?v=4" width="150px;" alt="Yara "/>
+    <br />
+    <sub><b>Yara </b></sub></a><br />
+    </td>
+    
+            <td align="center">
+    <a href="https://github.com/Mary-Akram" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/95533198?v=4" width="150px;" alt="Mary Akram "/>
+    <br />
+    <sub><b>Mary Akram  </b></sub></a><br />
+    </td>
+    
+
   </tr>
 
   
