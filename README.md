@@ -14,11 +14,12 @@
  <img width="1000" src="https://github.com/EsraaNouh/examinationsystemV1/blob/master/Untitled%20Diagram-ERD.drawio.png">
 </p>
 
-## Libraries, framwork and linraries  
+## Tech Stacks
 * Entity frameWork
 * SQL 
 * .net
-
+* SSRS (Reporting Services)
+* OOP
 
 
 --------------------
